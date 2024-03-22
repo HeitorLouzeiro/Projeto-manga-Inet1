@@ -1,0 +1,15 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  body {
+    background-color: #80EB71;
+    color: #6f6b80;
+    font-size: 1.6rem;
+    font-weight: 500;
+    line-height: 1.6;
+  }
