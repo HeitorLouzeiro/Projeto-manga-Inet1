@@ -1,27 +1,82 @@
 [
-    {
-        "id": 1,
-        "titulo": "Dragon Ball",
-        "autor": "Akira Toriyama"
-    },
-    {
-        "id": 2,
-        "titulo": "DEATH NOTE",
-        "autor": "Tsugumi Ohba"
-    },
-    {
-        "id": 3,
-        "titulo": "One-Punch Man",
-        "autor": "ONE"
-    },
-    {
-        "id": 4,
-        "titulo": "Naruto",
-        "autor": "Masashi Kishimoto"
-    },
-    {
-        "id": 5,
-        "titulo": "Naruto VL. 5",
-        "autor": "Masashi Kishimoto"
-    }
+  {
+    "id": 1,
+    "titulo": "Dragon Ball",
+    "autor": "Akira Toriyama"
+  },
+  {
+    "id": 2,
+    "titulo": "DEATH NOTE",
+    "autor": "Tsugumi Ohba"
+  },
+  {
+    "id": 3,
+    "titulo": "One-Punch Man",
+    "autor": "ONE"
+  },
+  {
+    "id": 4,
+    "titulo": "Naruto",
+    "autor": "Masashi Kishimoto"
+  },
+  {
+    "id": 5,
+    "titulo": "Naruto vl5",
+    "autor": "Masashi Kishimoto"
+  },
+  {
+    "id": 6,
+    "titulo": "One-Punch Man",
+    "autor": "ONE"
+  },
+  {
+    "id": 7,
+    "titulo": "Death Note",
+    "autor": "Tsugumi Ohba"
+  },
+  {
+    "id": 8,
+    "titulo": "Black Clover",
+    "autor": "Yūki Tabata"
+  },
+  {
+    "id": 9,
+    "titulo": "Jujutsu Kaisen vl4",
+    "autor": "Gege Akutami"
+  },
+  {
+    "id": 10,
+    "titulo": "Dragon ball V123",
+    "autor": "Akira Toriyama"
+  },
+  {
+    "id": 11,
+    "titulo": "Kuroko's Basketball",
+    "autor": "Tadatoshi Fujimaki"
+  },
+  {
+    "id": 12,
+    "titulo": "My Hero Academia",
+    "autor": "Kōhei Horikoshi"
+  },
+  {
+    "id": 13,
+    "titulo": "Dr. Stone",
+    "autor": "Riichiro Inagaki"
+  },
+  {
+    "id": 14,
+    "titulo": "Tokyo Revengers",
+    "autor": "Ken Wakui"
+  },
+  {
+    "id": 15,
+    "titulo": "one pince",
+    "autor": "Eiichiro Oda"
+  },
+  {
+    "id": 16,
+    "titulo": "naruto shipunden vol.51",
+    "autor": "Masashi Kishimoto"
+  }
 ]
