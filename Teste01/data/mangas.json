@@ -78,5 +78,45 @@
     "id": 16,
     "titulo": "naruto shipunden vol.51",
     "autor": "Masashi Kishimoto"
-  }
+  },
+  {
+    "id": 17,
+    "titulo": "Homem-Aranha: O Impostor vol.3",
+    "autor": "J. J. Abrams"
+},
+{
+    "id": 18,
+    "titulo": "Street Fighters vol.2",
+    "autor": "Ken Siu-Chong"
+},
+{
+    "id": 19,
+    "titulo": "Venom vol.5",
+    "autor": "Donny Cates"
+},
+{
+    "id": 20,
+    "titulo": "Wolverine",
+    "autor": "Chris Claremont"
+},
+{
+    "id": 21,
+    "titulo": "HOMEM DE FERRO VOL.06",
+    "autor": "David Michelinie"
+},
+{
+    "id": 22,
+    "titulo": "Immortal Hulk",
+    "autor": "Al Ewing"
+},
+{
+    "id": 23,
+    "titulo": "Capitão América vol.17",
+    "autor": "Steve Englehart"
+},
+{
+    "id": 24,
+    "titulo": "Coringa vol.1",
+    "autor": "Brian Azzarello"
+}
 ]
