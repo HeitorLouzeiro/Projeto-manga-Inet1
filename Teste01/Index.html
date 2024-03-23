@@ -20,7 +20,7 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
-<body>
+<bod>
 
 
     <header>
@@ -122,7 +122,7 @@
                         <div class="price">
                             <del>R$39,90</del> <span>R$33,92</span>
                         </div>
-                        <a href="#" class="btn">Compra Mangá</a>
+                        <button class="btn" onclick="mostrarModal(5)"> Comprar Mangás</button>
                     </div>
                 </div>
                 <!-- Primeiro item -->
@@ -191,7 +191,6 @@
                             <del>R$39,90</del> <span>R$33,92</span>
                         </div>
                         <a href="#" class="btn">Compra Mangá</a>
-                        <button class="btn">Comprar mangá</button>
                     </div>
                 </div>
 
@@ -1415,75 +1414,6 @@
     <script type="litespeed/javascript" data-src="https://unpkg.com/swiper@7/swiper-bundle.min.js"></script>
     <script type="litespeed/javascript" data-src="main.js"></script>
     <script src="script.js"></script>
-    <script>
-        document.addEventListener('DOMContentLoaded', function () {
-            var modal = document.getElementById('myModal');
-            // Adiciona um evento de clique ao modal
-            modal.addEventListener('click', function (event) {
-                // Verifica se o clique ocorreu dentro ou fora do conteúdo do modal
-                if (event.target === modal) {
-                    fecharModal();
-                }
-            });
-
-            function mostrarModal(id) {
-                modal.style.display = 'block';
-
-                // Suponha que o JSON esteja em uma variável chamada 'mangas'.
-                var mangas = [
-                    {
-                        "id": 1,
-                        "titulo": "Dragon Ball",
-                        "autor": "Akira Toriyama"
-                    },
-                    {
-                        "id": 2,
-                        "titulo": "DEATH NOTE",
-                        "autor": "Tsugumi Ohba"
-                    },
-                    {
-                        "id": 3,
-                        "titulo": "One-Punch Man",
-                        "autor": "ONE"
-                    },
-                    {
-                        "id": 4,
-                        "titulo": "Naruto",
-                        "autor": "Masashi Kishimoto"
-                    }
-
-                ];
-
-                // Encontrar o mangá com o ID correspondente
-                var manga = mangas.find(function (m) {
-                    return m.id === id;
-                });
-
-                // Mostrar as informações do mangá no modal
-                document.getElementById('informacoes').innerHTML = `
-            <h2>ID: ${manga.id}</h2>
-            <h2>Título: ${manga.titulo}</h2>
-            <h2>Autor: ${manga.autor}</h2>
-        `;
-
-                // Adicionar evento de clique para o botão de comprar
-                var comprarBtn = document.getElementById('comprarBtn');
-                comprarBtn.onclick = function () {
-                    // Aqui você pode adicionar a lógica para a ação de compra
-                    console.log('Compra realizada para: ' + manga.titulo);
-                    alert('Compra realizada para: ' + manga.titulo);
-                    fecharModal();
-                };
-            }
-
-            function fecharModal() {
-                modal.style.display = 'none';
-            }
-
-            window.mostrarModal = mostrarModal;
-            window.fecharModal = fecharModal;
-        });
-
-    </script>
+    <script src="modal.js"></script>
 
 </html>

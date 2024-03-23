@@ -1,0 +1,27 @@
+[
+    {
+        "id": 1,
+        "titulo": "Dragon Ball",
+        "autor": "Akira Toriyama"
+    },
+    {
+        "id": 2,
+        "titulo": "DEATH NOTE",
+        "autor": "Tsugumi Ohba"
+    },
+    {
+        "id": 3,
+        "titulo": "One-Punch Man",
+        "autor": "ONE"
+    },
+    {
+        "id": 4,
+        "titulo": "Naruto",
+        "autor": "Masashi Kishimoto"
+    },
+    {
+        "id": 5,
+        "titulo": "Naruto VL. 5",
+        "autor": "Masashi Kishimoto"
+    }
+]
