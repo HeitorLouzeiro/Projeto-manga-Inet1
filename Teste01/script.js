@@ -555,25 +555,6 @@
     : e.attachEvent("onload", n);
 })(window, document);
 
-var litespeed_vary = document.cookie.replace(
-  /(?:(?:^|.*;\s*)_lscache_vary\s*\=\s*([^;]*).*$)|^.*$/,
-  ""
-);
-litespeed_vary ||
-  fetch("/wp-content/plugins/litespeed-cache/guest.vary.php", {
-    method: "POST",
-    cache: "no-cache",
-    redirect: "follow",
-  })
-    .then((e) => e.json())
-    .then((e) => {
-      console.log(e),
-        e.hasOwnProperty("reload") &&
-          "yes" == e.reload &&
-          (sessionStorage.setItem("litespeed_docref", document.referrer),
-          window.location.reload(!0));
-    });
-
 const litespeed_ui_events = [
   "mouseover",
   "click",
