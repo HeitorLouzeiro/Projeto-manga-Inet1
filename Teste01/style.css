@@ -77,7 +77,8 @@ header {
 }
 
 header .logo {
-    color: var(--white-color);
+    color: #fff;
+    ;
     font-size: 2.5rem;
     font-weight: bolder;
 }
@@ -91,12 +92,12 @@ header .navbar a {
     font-size: 1.7rem;
     border-radius: .5rem;
     padding: .5rem 1.5rem;
-    color: var(--white-color);
+    color: #fff;
 }
 
 header .navbar a.active,
 header .navbar a:hover {
-    color: var(--white-color);
+    color: #fff;
     background: var(--red);
 }
 
@@ -109,7 +110,7 @@ header .icons a {
     width: 4.5rem;
     text-align: center;
     font-size: 1.7rem;
-    color: var(--white-color);
+    color: #fff;
     border-radius: 50%;
     background: var(--red);
 }
@@ -117,7 +118,7 @@ header .icons a {
 header .icons i:hover,
 header .icons a:hover {
     color: var(--red);
-    background: var(--white-color);
+    background: #fff;
     transform: rotate(360deg);
 }
 
@@ -156,23 +157,23 @@ header .icons #menu-bars {
 
 .home .box .content h3 {
     font-size: 6rem;
-    color: var(--red);
+    color: #fff;
     padding-top: .5rem;
     text-transform: uppercase;
 }
 
 .home .box .content p {
     line-height: 2;
-    color: var(--white-color);
+    color: #fff;
     font-size: 1.5rem;
     padding: 1rem 0;
 }
 
+
+/* Parte inicial dos mangás populares */
 .anime {
     padding: 5rem;
 }
-
-
 
 .anime .box {
     width: 320px;
@@ -200,8 +201,9 @@ header .icons #menu-bars {
     /* Para manter a proporção da imagem */
 }
 
-
-.anime .content .price-and-button {
+.anime .content .price-and-button,
+.anime .content .price,
+.anime .content .btn {
     display: flex;
     /* Ativa o flexbox */
     align-items: center;
@@ -215,8 +217,10 @@ header .icons #menu-bars {
 .anime .content .price {
     font-size: 1.8rem;
     /* Define o tamanho da fonte do preço */
-    color: var(--white-color);
+    color: #fff;
     /* Define a cor do texto do preço */
+    text-align: center;
+    /* Centraliza o texto do preço */
 }
 
 .anime .content .price del {
@@ -229,7 +233,7 @@ header .icons #menu-bars {
 }
 
 .anime .content .price span {
-    color: var(--red);
+    color: #ff4500;
     /* Define a cor do texto do preço atual */
     font-weight: bold;
     /* Define a fonte em negrito para o preço atual */
@@ -238,50 +242,9 @@ header .icons #menu-bars {
 .anime .content .btn {
     margin-left: 10px;
     /* Adiciona um espaçamento à esquerda para separar o botão do preço */
-}
-
-.anime .content .price-and-button {
-    display: flex;
-    /* Ativa o flexbox */
-    align-items: center;
-    /* Centraliza verticalmente */
-    justify-content: center;
-    /* Centraliza horizontalmente */
-    flex-direction: column;
-    /* Adiciona uma coluna flexível */
-    margin-top: 10px;
-    /* Adiciona um espaçamento superior */
-}
-
-.anime .content .price {
-    font-size: 1.8rem;
-    /* Define o tamanho da fonte do preço */
-    color: var(--white-color);
-    /* Define a cor do texto do preço */
-}
-
-.anime .content .price del {
-    color: #ccc;
-    /* Define a cor do texto riscado (preço original) */
-    text-decoration: line-through;
-    /* Adiciona o efeito de texto riscado */
-    margin-right: 5px;
-    /* Adiciona um espaçamento à direita entre o preço original e o atual */
-}
-
-.anime .content .price span {
-    color: var(--red);
-    /* Define a cor do texto do preço atual */
-    font-weight: bold;
-    /* Define a fonte em negrito para o preço atual */
-}
-
-.anime .content .btn {
-    margin-top: 10px;
-    /* Adiciona um espaçamento superior ao botão */
     background-color: var(--red);
     /* Adiciona a cor de fundo ao botão */
-    color: var(--white-color);
+    color: #fff;
     /* Define a cor do texto do botão */
     padding: 8px 16px;
     /* Ajusta o preenchimento interno do botão para torná-lo menor */
@@ -297,117 +260,389 @@ header .icons #menu-bars {
     /* Define o tamanho da fonte do botão */
 }
 
-.anime .content .price {
+.anime .content h3 {
+    font-size: 1.7rem;
+    color: #ffffff;
+    text-transform: uppercase;
     text-align: center;
-    /* Centraliza o texto do preço */
+    margin-bottom: 5px;
+    /* Adiciona espaço entre o título e as estrelas */
 }
 
-.anime .content .price-and-button {
+/* Estrelas */
+.anime .content .rating {
+    text-align: center;
+    /* Centraliza as estrelas */
+    margin-top: 5px;
+    /* Adiciona um pequeno espaço entre o nome e as estrelas */
+}
+
+.anime .content .rating span {
+    font-size: 14px;
+    /* Define o tamanho padrão das estrelas */
+    color: #f8ce0b;
+    /* Cor das estrelas */
+}
+
+
+
+/* Parte inicial dos mangás de ação */
+.action {
+    padding: 5rem;
+}
+
+.action .box {
+    width: 320px;
+    /* Largura fixa */
+    height: 350px;
+    /* Altura fixa */
+    overflow: hidden;
+    /* Garante que a imagem não ultrapasse os limites do contêiner */
+    display: flex;
+    /* Para alinhar a imagem no centro vertical e horizontalmente */
+    justify-content: center;
+    /* Para alinhar a imagem no centro horizontalmente */
+    align-items: center;
+    /* Para alinhar a imagem no centro verticalmente */
+}
+
+.action .box img {
+    max-width: 100%;
+    /* Garante que a imagem não ultrapasse a largura do contêiner */
+    max-height: 100%;
+    /* Garante que a imagem não ultrapasse a altura do contêiner */
+    width: auto;
+    /* Para manter a proporção da imagem */
+    height: auto;
+    /* Para manter a proporção da imagem */
+}
+
+.action .content .price-and-button,
+.action .content .price,
+.action .content .btn {
     display: flex;
     /* Ativa o flexbox */
     align-items: center;
     /* Centraliza verticalmente */
     justify-content: center;
     /* Centraliza horizontalmente */
-    flex-direction: column;
-    /* Coloca os elementos em uma coluna */
     margin-top: 10px;
-    /* Adiciona um espaçamento superior ao preço */
+    /* Adiciona um espaçamento superior */
 }
 
-
-
-
-
-
-
-
-
-
-
-.anime .content h3 {
-    font-size: 1.7rem;
-    color: var(--white-color);
-    text-transform: uppercase;
+.action .content .price {
+    font-size: 1.8rem;
+    /* Define o tamanho da fonte do preço */
+    color: #fff;
+    /* Define a cor do texto do preço */
     text-align: center;
+    /* Centraliza o texto do preço */
 }
 
-.anime .content P {
-    font-size: 1.2rem;
-    color: var(--white-color);
+.action .content .price del {
+    color: #ccc;
+    /* Define a cor do texto riscado (preço original) */
+    text-decoration: line-through;
+    /* Adiciona o efeito de texto riscado */
+    margin-right: 5px;
+    /* Adiciona um espaçamento à direita entre o preço original e o atual */
+}
+
+.action .content .price span {
+    color: #ff4500;
+    /* Define a cor do texto do preço atual */
+    font-weight: bold;
+    /* Define a fonte em negrito para o preço atual */
+}
+
+.action .content .btn {
+    margin-left: 10px;
+    /* Adiciona um espaçamento à esquerda para separar o botão do preço */
+    background-color: var(--red);
+    /* Adiciona a cor de fundo ao botão */
+    color: #fff;
+    /* Define a cor do texto do botão */
+    padding: 8px 16px;
+    /* Ajusta o preenchimento interno do botão para torná-lo menor */
+    border-radius: 5px;
+    /* Adiciona bordas arredondadas ao botão */
     text-decoration: none;
-
-}
-
-.action {
-    padding: 5rem;
-}
-
-.action .box {
-    width: 299px;
-    height: 168px;
+    /* Remove a decoração de texto padrão */
+    text-align: center;
+    /* Centraliza o texto do botão */
+    display: block;
+    /* Transforma o botão em um elemento de bloco */
+    font-size: 1.4rem;
+    /* Define o tamanho da fonte do botão */
 }
 
 .action .content h3 {
     font-size: 1.7rem;
-    color: var(--white-color);
+    color: #ffffff;
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 5px;
+    /* Adiciona espaço entre o título e as estrelas */
 }
 
-.action .content P {
-    font-size: 1.2rem;
-    color: var(--white-color);
-    text-decoration: none;
-
+/* Estrelas */
+.action .content .rating {
+    text-align: center;
+    /* Centraliza as estrelas */
+    margin-top: 5px;
+    /* Adiciona um pequeno espaço entre o nome e as estrelas */
 }
 
+.action .content .rating span {
+    font-size: 14px;
+    /* Define o tamanho padrão das estrelas */
+    color: #f8ce0b;
+    /* Cor das estrelas */
+}
+
+/*Parte final dos mangas de acao*/
+
+
+
+/* Parte inicial dos mangás infantis */
 .child {
     padding: 5rem;
 }
 
 .child .box {
-    width: 299px;
-    height: 168px;
+    width: 320px;
+    /* Largura fixa */
+    height: 350px;
+    /* Altura fixa */
+    overflow: hidden;
+    /* Garante que a imagem não ultrapasse os limites do contêiner */
+    display: flex;
+    /* Para alinhar a imagem no centro vertical e horizontalmente */
+    justify-content: center;
+    /* Para alinhar a imagem no centro horizontalmente */
+    align-items: center;
+    /* Para alinhar a imagem no centro verticalmente */
+}
+
+.child .box img {
+    max-width: 100%;
+    /* Garante que a imagem não ultrapasse a largura do contêiner */
+    max-height: 100%;
+    /* Garante que a imagem não ultrapasse a altura do contêiner */
+    width: auto;
+    /* Para manter a proporção da imagem */
+    height: auto;
+    /* Para manter a proporção da imagem */
+}
+
+.child .content .price-and-button,
+.child .content .price,
+.child .content .btn {
+    display: flex;
+    /* Ativa o flexbox */
+    align-items: center;
+    /* Centraliza verticalmente */
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    margin-top: 10px;
+    /* Adiciona um espaçamento superior */
+}
+
+.child .content .price {
+    font-size: 1.8rem;
+    /* Define o tamanho da fonte do preço */
+    color: #fff;
+    /* Define a cor do texto do preço */
+    text-align: center;
+    /* Centraliza o texto do preço */
+}
+
+.child .content .price del {
+    color: #ccc;
+    /* Define a cor do texto riscado (preço original) */
+    text-decoration: line-through;
+    /* Adiciona o efeito de texto riscado */
+    margin-right: 5px;
+    /* Adiciona um espaçamento à direita entre o preço original e o atual */
+}
+
+.child .content .price span {
+    color: #ff4500;
+    /* Define a cor do texto do preço atual */
+    font-weight: bold;
+    /* Define a fonte em negrito para o preço atual */
+}
+
+.child .content .btn {
+    margin-left: 10px;
+    /* Adiciona um espaçamento à esquerda para separar o botão do preço */
+    background-color: var(--red);
+    /* Adiciona a cor de fundo ao botão */
+    color: #fff;
+    /* Define a cor do texto do botão */
+    padding: 8px 16px;
+    /* Ajusta o preenchimento interno do botão para torná-lo menor */
+    border-radius: 5px;
+    /* Adiciona bordas arredondadas ao botão */
+    text-decoration: none;
+    /* Remove a decoração de texto padrão */
+    text-align: center;
+    /* Centraliza o texto do botão */
+    display: block;
+    /* Transforma o botão em um elemento de bloco */
+    font-size: 1.4rem;
+    /* Define o tamanho da fonte do botão */
 }
 
 .child .content h3 {
     font-size: 1.7rem;
-    color: var(--white-color);
+    color: #ffffff;
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 5px;
+    /* Adiciona espaço entre o título e as estrelas */
 }
 
-.child .content P {
-    font-size: 1.2rem;
-    color: var(--white-color);
-    text-decoration: none;
-
+/* Estrelas */
+.child .content .rating {
+    text-align: center;
+    /* Centraliza as estrelas */
+    margin-top: 5px;
+    /* Adiciona um pequeno espaço entre o nome e as estrelas */
 }
 
+.child .content .rating span {
+    font-size: 14px;
+    /* Define o tamanho padrão das estrelas */
+    color: #f8ce0b;
+    /* Cor das estrelas */
+}
 
+/*Parte final*/
+
+
+
+
+/*Parte inicial de todos os mangas*/
+/* Estilo para a seção de Todos os Mangás */
 .family {
     padding: 5rem;
 }
 
 .family .box {
-    width: 299px;
-    height: 168px;
+    width: 320px;
+    /* Largura fixa */
+    height: 350px;
+    /* Altura fixa */
+    overflow: hidden;
+    /* Garante que a imagem não ultrapasse os limites do contêiner */
+    display: flex;
+    /* Para alinhar a imagem no centro vertical e horizontalmente */
+    justify-content: center;
+    /* Para alinhar a imagem no centro horizontalmente */
+    align-items: center;
+    /* Para alinhar a imagem no centro verticalmente */
+}
+
+.family .box img {
+    max-width: 100%;
+    /* Garante que a imagem não ultrapasse a largura do contêiner */
+    max-height: 100%;
+    /* Garante que a imagem não ultrapasse a altura do contêiner */
+    width: auto;
+    /* Para manter a proporção da imagem */
+    height: auto;
+    /* Para manter a proporção da imagem */
+}
+
+.family .content .price-and-button,
+.family .content .price,
+.family .content .btn {
+    display: flex;
+    /* Ativa o flexbox */
+    align-items: center;
+    /* Centraliza verticalmente */
+    justify-content: center;
+    /* Centraliza horizontalmente */
+    margin-top: 10px;
+    /* Adiciona um espaçamento superior */
+}
+
+.family .content .price {
+    font-size: 1.8rem;
+    /* Define o tamanho da fonte do preço */
+    color: #fff;
+    /* Define a cor do texto do preço */
+    text-align: center;
+    /* Centraliza o texto do preço */
+}
+
+.family .content .price del {
+    color: #ccc;
+    /* Define a cor do texto riscado (preço original) */
+    text-decoration: line-through;
+    /* Adiciona o efeito de texto riscado */
+    margin-right: 5px;
+    /* Adiciona um espaçamento à direita entre o preço original e o atual */
+}
+
+.family .content .price span {
+    color: #ff4500;
+    /* Define a cor do texto do preço atual */
+    font-weight: bold;
+    /* Define a fonte em negrito para o preço atual */
+}
+
+.family .content .btn {
+    margin-left: 10px;
+    /* Adiciona um espaçamento à esquerda para separar o botão do preço */
+    background-color: var(--red);
+    /* Adiciona a cor de fundo ao botão */
+    color: #fff;
+    /* Define a cor do texto do botão */
+    padding: 8px 16px;
+    /* Ajusta o preenchimento interno do botão para torná-lo menor */
+    border-radius: 5px;
+    /* Adiciona bordas arredondadas ao botão */
+    text-decoration: none;
+    /* Remove a decoração de texto padrão */
+    text-align: center;
+    /* Centraliza o texto do botão */
+    display: block;
+    /* Transforma o botão em um elemento de bloco */
+    font-size: 1.4rem;
+    /* Define o tamanho da fonte do botão */
 }
 
 .family .content h3 {
     font-size: 1.7rem;
-    color: var(--white-color);
+    color: #ffffff;
     text-transform: uppercase;
     text-align: center;
+    margin-bottom: 5px;
+    /* Adiciona espaço entre o título e as estrelas */
 }
 
-.family .content P {
-    font-size: 1.2rem;
-    color: var(--white-color);
-    text-decoration: none;
-
+/* Estrelas */
+.family .content .rating {
+    text-align: center;
+    /* Centraliza as estrelas */
+    margin-top: 5px;
+    /* Adiciona um pequeno espaço entre o nome e as estrelas */
 }
+
+.family .content .rating span {
+    font-size: 14px;
+    /* Define o tamanho padrão das estrelas */
+    color: #f8ce0b;
+    /* Cor das estrelas */
+}
+
+/*parte final*/
+
+
+
+
 
 .copyright {
     display: flex;
@@ -435,7 +670,7 @@ header .icons #menu-bars {
 
 .about {
     margin-top: 2rem;
-    color: var(--white-color);
+    color: #fff;
     ;
 }
 
@@ -444,13 +679,13 @@ header .icons #menu-bars {
     font-size: 2.4rem;
     font-weight: 500;
     border-bottom: 4px solid var(--red);
-    color: var(--white-color);
+    color: #ffffff;
 }
 
 .about p {
     display: inline-flex;
     font-size: 2rem;
-    color: var(--white-color);
+    color: #ffffff;
     text-align: justify;
     text-decoration: none;
 }
@@ -461,7 +696,7 @@ header .icons #menu-bars {
     font-size: 2.4rem;
     font-weight: 500;
     border-bottom: 4px solid var(--red);
-    color: var(--white-color);
+    color: #ffffff;
     margin-top: 1.6rem;
 }
 
@@ -496,7 +731,7 @@ header .icons #menu-bars {
     font-size: 2.7rem;
     font-weight: 500;
     margin: 1.6rem 0;
-    color: var(--white-color);
+    color: #fff;
 }
 
 .downlod-links {
@@ -510,7 +745,7 @@ header .icons #menu-bars {
     text-align: center;
     background: var(--red);
     padding: 12px 20px;
-    color: var(--white-color);
+    color: #fff;
     letter-spacing: 1px;
     font-size: 500;
 }
