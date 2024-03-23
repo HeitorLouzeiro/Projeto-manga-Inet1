@@ -118,5 +118,171 @@
     "id": 24,
     "titulo": "Coringa vol.1",
     "autor": "Brian Azzarello"
+},
+{
+  "id": 25,
+  "titulo": "Beyblade",
+  "autor": "Tatsunoko Takara"
+},
+{
+  "id": 26,
+  "titulo": "Beyblade Burst Turbo",
+  "autor": "Tatsunoko Takara"
+},
+{
+  "id": 27,
+  "titulo": "Bakugan: Battle Planet",
+  "autor": "Spin Master"
+},
+{
+  "id": 28,
+  "titulo": "Sonic X",
+  "autor": "Sonic Team"
+},
+{
+  "id": 29,
+  "titulo": "Yowamushi Pedal vol.16",
+  "autor": "Wataru Watanabe"
+},
+{
+  "id": 30,
+  "titulo": "Dragon ball vol.1",
+  "autor": "Akira Toriyama"
+},
+{
+  "id": 31,
+  "titulo": "Go Astro Boy Go! vol.8",
+  "autor": "Osamu Tezuka"
+},
+{
+  "id": 32,
+  "titulo": "Naruto vol.5",
+  "autor": "Masashi Kishimoto"
+},
+{
+  "id": 33,
+  "titulo": "One-Punch Man",
+  "autor": "One, Yusuke Murata"
+},
+{
+  "id": 34,
+  "titulo": "Death Note",
+  "autor": "Tsugumi Ohba"
+},
+{
+  "id": 35,
+  "titulo": "Black Clover",
+  "autor": "Yūki Tabata"
+},
+{
+  "id": 36,
+  "titulo": "Jujutsu Kaisen vol.4",
+  "autor": "Gege Akutami"
+},
+{
+  "id": 37,
+  "titulo": "Haikyu!!",
+  "autor": "Haruichi Furudate"
+},
+{
+  "id": 38,
+  "titulo": "Kuroko's Basketball",
+  "autor": "Tadatoshi Fujimaki"
+},
+{
+  "id": 39,
+  "titulo": "My Hero Academia",
+  "autor": "Kōhei Horikoshi"
+},
+{
+  "id": 40,
+  "titulo": "Dr. Stone",
+  "autor": "Riichiro Inagaki"
+},
+{
+  "id": 41,
+  "titulo": "Tokyo Revengers",
+  "autor": "Ken Wakui"
+},
+{
+  "id": 42,
+  "titulo": "one pince",
+  "autor": "Eiichiro Oda"
+},
+{
+  "id": 43,
+  "titulo": "naruto shipunden vol.51",
+  "autor": "Masashi Kishimoto"
+},
+{
+  "id": 44,
+  "titulo": "Homem-Aranha: O Impostor vol.3",
+  "autor": "Nick Spencer"
+},
+{
+  "id": 45,
+  "titulo": "Street Fighters vol.2",
+  "autor": "Matt Moylan"
+},
+{
+  "id": 46,
+  "titulo": "Venom vol.5",
+  "autor": "Donny Cates"
+},
+{
+  "id": 47,
+  "titulo": "Wolverine",
+  "autor": "Chris Claremont"
+},
+{
+  "id": 48,
+  "titulo": "HOMEM DE FERRO VOL.06",
+  "autor": "Matt Fraction"
+},
+{
+  "id": 49,
+  "titulo": "Immortal Hulk",
+  "autor": "Al Ewing"
+},
+{
+  "id": 50,
+  "titulo": "Capitão América vol.17",
+  "autor": "Ta-Nehisi Coates"
+},
+{
+  "id": 51,
+  "titulo": "Coringa vol.1",
+  "autor": "Geoff Johns"
+},
+{
+  "id": 52,
+  "titulo": "Beyblade Burst Turbo",
+  "autor": "Hiro Morita"
+},
+{
+  "id": 53,
+  "titulo": "Bakugan: Battle Planet",
+  "autor": "Spin Master"
+},
+{
+  "id": 54,
+  "titulo": "Sonic X",
+  "autor": "TMS Entertainment"
+},
+{
+  "id": 55,
+  "titulo": "Yowamushi Pedal vol.16",
+  "autor": "Wataru Watanabe"
+},
+{
+  "id": 56,
+  "titulo": "Dragon ball vol.1",
+  "autor": "Akira Toriyama"
+},
+{
+  "id": 57,
+  "titulo": "Go Astro Boy Go! vol.8",
+  "autor": "Osamu Tezuka"
 }
+
 ]
