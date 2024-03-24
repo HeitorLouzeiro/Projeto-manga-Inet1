@@ -6,11 +6,12 @@
     --light-color: #181818;
     --box-shadow: 0 .5rem 1.5rem rgba(0, 0, 0, .1);
     --white-color: #fff;
+    --gray: #ccc;
+    --yellow: #f8ce0b;
 }
 
-header .navbar a {
+a {
     text-decoration: none;
-    /* Remover sublinhado */
 }
 
 
@@ -43,11 +44,15 @@ section {
 section:nth-child(even) {
     background: var(--light-color);
 }
-
-.logo {
-    text-decoration: none;
-    /* Remover sublinhado */
+.logo img {
+    width: 70px;
+    /* ajuste o tamanho conforme necessário */
+    height: auto;
+    /* altura automática para manter a proporção */
+    border-radius: 60%;
+    /* torna a imagem redonda */
 }
+
 
 
 header {
@@ -82,12 +87,10 @@ header {
 .btn:hover {
     background: var(--black);
     color: var(--red);
-    letter-spacing: .1rem;
 }
 
 header .logo {
-    color: #fff;
-    ;
+    color: var(--white-color);
     font-size: 2.5rem;
     font-weight: bolder;
 }
@@ -101,12 +104,12 @@ header .navbar a {
     font-size: 1.7rem;
     border-radius: .5rem;
     padding: .5rem 1.5rem;
-    color: #fff;
+    color: var(--white-color);
 }
 
 header .navbar a.active,
 header .navbar a:hover {
-    color: #fff;
+    color: var(--white-color);
     background: var(--red);
 }
 
@@ -119,7 +122,7 @@ header .icons a {
     width: 4.5rem;
     text-align: center;
     font-size: 1.7rem;
-    color: #fff;
+    color: var(--white-color);
     border-radius: 50%;
     background: var(--red);
 }
@@ -127,7 +130,7 @@ header .icons a {
 header .icons i:hover,
 header .icons a:hover {
     color: var(--red);
-    background: #fff;
+    background: var(--white-color);
     transform: rotate(360deg);
 }
 
@@ -166,14 +169,14 @@ header .icons #menu-bars {
 
 .home .box .content h3 {
     font-size: 6rem;
-    color: #fff;
+    color: var(--white-color);
     padding-top: .5rem;
     text-transform: uppercase;
 }
 
 .home .box .content p {
     line-height: 2;
-    color: #fff;
+    color: var(--white-color);
     font-size: 1.5rem;
     padding: 1rem 0;
 }
@@ -226,14 +229,14 @@ header .icons #menu-bars {
 .anime .content .price {
     font-size: 1.8rem;
     /* Define o tamanho da fonte do preço */
-    color: #fff;
+    color: var(--white-color);
     /* Define a cor do texto do preço */
     text-align: center;
     /* Centraliza o texto do preço */
 }
 
 .anime .content .price del {
-    color: #ccc;
+    color: var(--gray);
     /* Define a cor do texto riscado (preço original) */
     text-decoration: line-through;
     /* Adiciona o efeito de texto riscado */
@@ -242,7 +245,7 @@ header .icons #menu-bars {
 }
 
 .anime .content .price span {
-    color: #ff4500;
+    color: var(--red);
     /* Define a cor do texto do preço atual */
     font-weight: bold;
     /* Define a fonte em negrito para o preço atual */
@@ -251,7 +254,7 @@ header .icons #menu-bars {
 .anime .content .btn {
     margin-left: 30px;
     background-color: var(--red);
-    color: #fff;
+    color: var(--white-color);
     padding: 10px 72px;
     border-radius: 5px;
     text-decoration: none;
@@ -262,7 +265,7 @@ header .icons #menu-bars {
 
 .anime .content h3 {
     font-size: 1.7rem;
-    color: #ffffff;
+    color: var(--white-color);
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 5px;
@@ -280,7 +283,7 @@ header .icons #menu-bars {
 .anime .content .rating span {
     font-size: 14px;
     /* Define o tamanho padrão das estrelas */
-    color: #f8ce0b;
+    color: var(--yellow);
     /* Cor das estrelas */
 }
 
@@ -333,14 +336,14 @@ header .icons #menu-bars {
 .action .content .price {
     font-size: 1.8rem;
     /* Define o tamanho da fonte do preço */
-    color: #fff;
+    color: var(--white-color);
     /* Define a cor do texto do preço */
     text-align: center;
     /* Centraliza o texto do preço */
 }
 
 .action .content .price del {
-    color: #ccc;
+    color: var(--gray);
     /* Define a cor do texto riscado (preço original) */
     text-decoration: line-through;
     /* Adiciona o efeito de texto riscado */
@@ -349,7 +352,7 @@ header .icons #menu-bars {
 }
 
 .action .content .price span {
-    color: #ff4500;
+    color: var(--red);
     /* Define a cor do texto do preço atual */
     font-weight: bold;
     /* Define a fonte em negrito para o preço atual */
@@ -358,7 +361,7 @@ header .icons #menu-bars {
 .action .content .btn {
     margin-left: 30px;
     background-color: var(--red);
-    color: #fff;
+    color: var(--white-color);
     padding: 10px 72px;
     border-radius: 5px;
     text-decoration: none;
@@ -369,7 +372,7 @@ header .icons #menu-bars {
 
 .action .content h3 {
     font-size: 1.7rem;
-    color: #ffffff;
+    color: var(--white-color);
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 5px;
@@ -387,7 +390,7 @@ header .icons #menu-bars {
 .action .content .rating span {
     font-size: 14px;
     /* Define o tamanho padrão das estrelas */
-    color: #f8ce0b;
+    color: var(--yellow);
     /* Cor das estrelas */
 }
 
@@ -442,14 +445,14 @@ header .icons #menu-bars {
 .child .content .price {
     font-size: 1.8rem;
     /* Define o tamanho da fonte do preço */
-    color: #fff;
+    color: var(--white-color);
     /* Define a cor do texto do preço */
     text-align: center;
     /* Centraliza o texto do preço */
 }
 
 .child .content .price del {
-    color: #ccc;
+    color: var(--gray);
     /* Define a cor do texto riscado (preço original) */
     text-decoration: line-through;
     /* Adiciona o efeito de texto riscado */
@@ -458,7 +461,7 @@ header .icons #menu-bars {
 }
 
 .child .content .price span {
-    color: #ff4500;
+    color: var(--red);
     /* Define a cor do texto do preço atual */
     font-weight: bold;
     /* Define a fonte em negrito para o preço atual */
@@ -467,7 +470,7 @@ header .icons #menu-bars {
 .child .content .btn {
     margin-left: 30px;
     background-color: var(--red);
-    color: #fff;
+    color: var(--white-color);
     padding: 10px 72px;
     border-radius: 5px;
     text-decoration: none;
@@ -478,7 +481,7 @@ header .icons #menu-bars {
 
 .child .content h3 {
     font-size: 1.7rem;
-    color: #ffffff;
+    color: var(--white-color);
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 5px;
@@ -496,7 +499,7 @@ header .icons #menu-bars {
 .child .content .rating span {
     font-size: 14px;
     /* Define o tamanho padrão das estrelas */
-    color: #f8ce0b;
+    color: var(--yellow);
     /* Cor das estrelas */
 }
 
@@ -553,14 +556,14 @@ header .icons #menu-bars {
 .family .content .price {
     font-size: 1.8rem;
     /* Define o tamanho da fonte do preço */
-    color: #fff;
+    color: var(--white-color);
     /* Define a cor do texto do preço */
     text-align: center;
     /* Centraliza o texto do preço */
 }
 
 .family .content .price del {
-    color: #ccc;
+    color: var(--gray);
     /* Define a cor do texto riscado (preço original) */
     text-decoration: line-through;
     /* Adiciona o efeito de texto riscado */
@@ -569,7 +572,7 @@ header .icons #menu-bars {
 }
 
 .family .content .price span {
-    color: #ff4500;
+    color: var(--red);
     /* Define a cor do texto do preço atual */
     font-weight: bold;
     /* Define a fonte em negrito para o preço atual */
@@ -578,7 +581,7 @@ header .icons #menu-bars {
 .family .content .btn {
     margin-left: 30px;
     background-color: var(--red);
-    color: #fff;
+    color: var(--white-color);
     padding: 10px 72px;
     border-radius: 5px;
     text-decoration: none;
@@ -589,7 +592,7 @@ header .icons #menu-bars {
 
 .family .content h3 {
     font-size: 1.7rem;
-    color: #ffffff;
+    color: var(--white-color);
     text-transform: uppercase;
     text-align: center;
     margin-bottom: 5px;
@@ -607,206 +610,8 @@ header .icons #menu-bars {
 .family .content .rating span {
     font-size: 14px;
     /* Define o tamanho padrão das estrelas */
-    color: #f8ce0b;
+    color: var(--yellow);
     /* Cor das estrelas */
 }
 
 /*parte final*/
-
-
-
-
-
-.copyright {
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-}
-
-.copyright .logo {
-    color: var(--red);
-    font-size: 2.1rem;
-    font-weight: bolder;
-}
-
-.copyright p {
-    font-size: 0.9rem;
-    color: var(--red);
-    font-size: 2rem;
-}
-
-
-.video-container video {
-    width: 100%;
-    aspect-ratio: 16/9;
-}
-
-.about {
-    margin-top: 2rem;
-    color: #fff;
-    ;
-}
-
-.about h2 {
-    display: inline-flex;
-    font-size: 2.4rem;
-    font-weight: 500;
-    border-bottom: 4px solid var(--red);
-    color: #ffffff;
-}
-
-.about p {
-    display: inline-flex;
-    font-size: 2rem;
-    color: #ffffff;
-    text-align: justify;
-    text-decoration: none;
-}
-
-
-.screenshots h2 {
-    display: inline-flex;
-    font-size: 2.4rem;
-    font-weight: 500;
-    border-bottom: 4px solid var(--red);
-    color: #ffffff;
-    margin-top: 1.6rem;
-}
-
-.screenshots-content {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, auto));
-    gap: 10px;
-    justify-content: center;
-    margin: auto;
-    width: 100%;
-}
-
-.screenshots-content img {
-    width: 100%;
-    height: 219.94px;
-    object-fit: cover;
-    margin-top: 1.6rem;
-}
-
-.download {
-    max-width: 800px;
-    margin: auto;
-    width: 100%;
-    display: grid;
-    justify-content: center;
-    margin-top: 2rem;
-
-}
-
-.download h2 {
-    text-align: center;
-    font-size: 2.7rem;
-    font-weight: 500;
-    margin: 1.6rem 0;
-    color: #fff;
-}
-
-.downlod-links {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    margin-bottom: 2rem;
-}
-
-.downlod-links a {
-    text-align: center;
-    background: var(--red);
-    padding: 12px 20px;
-    color: #fff;
-    letter-spacing: 1px;
-    font-size: 500;
-}
-
-.downlod-links a:hover {
-    background: var(--black);
-    color: var(--red);
-    transition: 0.3s all linear;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* media query */
-@media(max-width: 991px) {
-    html {
-        font-size: 55%;
-
-    }
-
-    header {
-        padding: 1rem 2rem;
-    }
-
-    section {
-        padding: 2rem;
-    }
-}
-
-@media(max-width: 768px) {
-    header .icons #menu-bars {
-        display: inline-block;
-    }
-
-    header .navbar {
-        position: absolute;
-        top: 100%;
-        left: 0;
-        right: 0;
-        background: var(--black);
-        border-top: .1rem solid rgba(0, 0, 0, .2);
-        border-bottom: .1rem solid rgba(0, 0, 0, .2);
-        padding: 1rem;
-        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
-    }
-
-    header .navbar.active {
-        clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
-    }
-
-    header .navbar a {
-        display: block;
-        padding: 1.5rem;
-        margin: 1rem;
-        font-size: 2rem;
-        background: var(--red);
-    }
-
-    .home .box .content h3 {
-        font-size: 5rem;
-    }
-}
-
-@media(max-width: 450px) {
-    html {
-        font-size: 50%;
-
-    }
-
-
-}
