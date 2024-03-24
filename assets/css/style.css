@@ -158,7 +158,7 @@ header .icons #menu-bars {
     background-size: cover !important;
     background-position: center !important;
     justify-content: flex-end;
-    padding: 2rem 9%;
+    padding: 2rem 9% ;
 }
 
 .home .box {
