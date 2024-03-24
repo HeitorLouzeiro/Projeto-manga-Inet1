@@ -53,6 +53,9 @@ section:nth-child(even) {
     /* torna a imagem redonda */
 }
 
+.logo #text {
+    color: red; /* Define a cor do texto para vermelho */
+}
 
 
 header {
