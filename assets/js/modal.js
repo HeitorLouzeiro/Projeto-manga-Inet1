@@ -11,49 +11,32 @@ document.addEventListener('DOMContentLoaded', function () {
     function mostrarModal(id) {
         modal.style.display = 'block';
 
-        // Suponha que o JSON esteja em uma variável chamada 'mangas'.
-        var mangas = [
-            {
-                "id": 1,
-                "titulo": "One Piece",
-                "autor": "Eiichiro Oda",
-                "genero": "Ação, Aventura, Comédia, Drama, Fantasia, Shounen"
-            },
-            {
-                "id": 2,
-                "titulo": "Naruto",
-                "autor": "Masashi Kishimoto",
-                "genero": "Ação, Aventura, Comédia, Drama, Fantasia, Shounen"
-            },
-            {
-                "id": 3,
-                "titulo": "Attack on Titan",
-                "autor": "Hajime Isayama",
-                "genero": "Ação, Drama, Fantasia, Mistério, Shounen, Terror"
-            }
-        ];
+        // Carregar o JSON externo usando fetch API
+        fetch('../data/mangas.json')
+            .then(response => response.json()) // Parse response as JSON
+            .then(data => {
+                // Encontrar o mangá com o ID correspondente
+                var manga = data.find(function (m) {
+                    return m.id === id;
+                });
 
-        // Encontrar o mangá com o ID correspondente
-        var manga = mangas.find(function (m) {
-            return m.id === id;
-        });
+                // Mostrar as informações do mangá no modal
+                document.getElementById('informacoes').innerHTML = `
+                    <h2>ID: ${manga.id}</h2>
+                    <h2>Título: ${manga.titulo}</h2>
+                    <h2>Autor: ${manga.autor}</h2>
+                `;
 
-        // Mostrar as informações do mangá no modal
-        document.getElementById('informacoes').innerHTML = `
-            <p>ID: ${manga.id}</p>
-            <p>Título: ${manga.titulo}</p>
-            <p>Autor: ${manga.autor}</p>
-            <p>Gênero: ${manga.genero}</p>
-        `;
-
-        // Adicionar evento de clique para o botão de comprar
-        var comprarBtn = document.getElementById('comprarBtn');
-        comprarBtn.onclick = function () {
-            // Aqui você pode adicionar a lógica para a ação de compra
-            console.log('Compra realizada para: ' + manga.titulo);
-            alert('Compra realizada para: ' + manga.titulo);
-            fecharModal();
-        };
+                // Adicionar evento de clique para o botão de comprar
+                var comprarBtn = document.getElementById('comprarBtn');
+                comprarBtn.onclick = function () {
+                    // Aqui você pode adicionar a lógica para a ação de compra
+                    console.log('Compra realizada para: ' + manga.titulo);
+                    alert('Compra realizada para: ' + manga.titulo);
+                    fecharModal();
+                };
+            })
+            .catch(error => console.error('Erro ao carregar o JSON:', error));
     }
 
     function fecharModal() {
