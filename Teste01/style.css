@@ -8,6 +8,11 @@
     --white-color: #fff;
 }
 
+header .navbar a {
+    text-decoration: none;
+    /* Remover sublinhado */
+}
+
 
 * {
     font-family: 'Nunito', sans-serif;
@@ -39,6 +44,10 @@ section:nth-child(even) {
     background: var(--light-color);
 }
 
+.logo {
+    text-decoration: none;
+    /* Remover sublinhado */
+}
 
 
 header {
@@ -240,24 +249,15 @@ header .icons #menu-bars {
 }
 
 .anime .content .btn {
-    margin-left: 10px;
-    /* Adiciona um espaçamento à esquerda para separar o botão do preço */
+    margin-left: 30px;
     background-color: var(--red);
-    /* Adiciona a cor de fundo ao botão */
     color: #fff;
-    /* Define a cor do texto do botão */
-    padding: 8px 16px;
-    /* Ajusta o preenchimento interno do botão para torná-lo menor */
+    padding: 10px 72px;
     border-radius: 5px;
-    /* Adiciona bordas arredondadas ao botão */
     text-decoration: none;
-    /* Remove a decoração de texto padrão */
     text-align: center;
-    /* Centraliza o texto do botão */
     display: block;
-    /* Transforma o botão em um elemento de bloco */
-    font-size: 1.4rem;
-    /* Define o tamanho da fonte do botão */
+    font-size: 1.5rem;
 }
 
 .anime .content h3 {
@@ -356,24 +356,15 @@ header .icons #menu-bars {
 }
 
 .action .content .btn {
-    margin-left: 10px;
-    /* Adiciona um espaçamento à esquerda para separar o botão do preço */
+    margin-left: 30px;
     background-color: var(--red);
-    /* Adiciona a cor de fundo ao botão */
     color: #fff;
-    /* Define a cor do texto do botão */
-    padding: 8px 16px;
-    /* Ajusta o preenchimento interno do botão para torná-lo menor */
+    padding: 10px 72px;
     border-radius: 5px;
-    /* Adiciona bordas arredondadas ao botão */
     text-decoration: none;
-    /* Remove a decoração de texto padrão */
     text-align: center;
-    /* Centraliza o texto do botão */
     display: block;
-    /* Transforma o botão em um elemento de bloco */
-    font-size: 1.4rem;
-    /* Define o tamanho da fonte do botão */
+    font-size: 1.5rem;
 }
 
 .action .content h3 {
@@ -474,24 +465,15 @@ header .icons #menu-bars {
 }
 
 .child .content .btn {
-    margin-left: 10px;
-    /* Adiciona um espaçamento à esquerda para separar o botão do preço */
+    margin-left: 30px;
     background-color: var(--red);
-    /* Adiciona a cor de fundo ao botão */
     color: #fff;
-    /* Define a cor do texto do botão */
-    padding: 8px 16px;
-    /* Ajusta o preenchimento interno do botão para torná-lo menor */
+    padding: 10px 72px;
     border-radius: 5px;
-    /* Adiciona bordas arredondadas ao botão */
     text-decoration: none;
-    /* Remove a decoração de texto padrão */
     text-align: center;
-    /* Centraliza o texto do botão */
     display: block;
-    /* Transforma o botão em um elemento de bloco */
-    font-size: 1.4rem;
-    /* Define o tamanho da fonte do botão */
+    font-size: 1.5rem;
 }
 
 .child .content h3 {
@@ -594,24 +576,15 @@ header .icons #menu-bars {
 }
 
 .family .content .btn {
-    margin-left: 10px;
-    /* Adiciona um espaçamento à esquerda para separar o botão do preço */
+    margin-left: 30px;
     background-color: var(--red);
-    /* Adiciona a cor de fundo ao botão */
     color: #fff;
-    /* Define a cor do texto do botão */
-    padding: 8px 16px;
-    /* Ajusta o preenchimento interno do botão para torná-lo menor */
+    padding: 10px 72px;
     border-radius: 5px;
-    /* Adiciona bordas arredondadas ao botão */
     text-decoration: none;
-    /* Remove a decoração de texto padrão */
     text-align: center;
-    /* Centraliza o texto do botão */
     display: block;
-    /* Transforma o botão em um elemento de bloco */
-    font-size: 1.4rem;
-    /* Define o tamanho da fonte do botão */
+    font-size: 1.5rem;
 }
 
 .family .content h3 {
