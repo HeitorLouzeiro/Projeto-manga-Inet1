@@ -182,12 +182,12 @@ header .icons #menu-bars {
 }
 
 
-/* Parte inicial dos mangás populares */
-.anime {
+/* Parte inicial dos card dos mangas */
+.anime, .action, .child, .family {
     padding: 5rem;
 }
 
-.anime .box {
+.anime .box, .action .box, .child .box, .family .box {
     width: 320px;
     /* Largura fixa */
     height: 350px;
@@ -202,7 +202,7 @@ header .icons #menu-bars {
     /* Para alinhar a imagem no centro verticalmente */
 }
 
-.anime .box img {
+.anime .box img, .action .box img, .child .box img, .family .box img{
     max-width: 100%;
     /* Garante que a imagem não ultrapasse a largura do contêiner */
     max-height: 100%;
@@ -215,330 +215,15 @@ header .icons #menu-bars {
 
 .anime .content .price-and-button,
 .anime .content .price,
-.anime .content .btn {
-    display: flex;
-    /* Ativa o flexbox */
-    align-items: center;
-    /* Centraliza verticalmente */
-    justify-content: center;
-    /* Centraliza horizontalmente */
-    margin-top: 10px;
-    /* Adiciona um espaçamento superior */
-}
-
-.anime .content .price {
-    font-size: 1.8rem;
-    /* Define o tamanho da fonte do preço */
-    color: var(--white-color);
-    /* Define a cor do texto do preço */
-    text-align: center;
-    /* Centraliza o texto do preço */
-}
-
-.anime .content .price del {
-    color: var(--gray);
-    /* Define a cor do texto riscado (preço original) */
-    text-decoration: line-through;
-    /* Adiciona o efeito de texto riscado */
-    margin-right: 5px;
-    /* Adiciona um espaçamento à direita entre o preço original e o atual */
-}
-
-.anime .content .price span {
-    color: var(--red);
-    /* Define a cor do texto do preço atual */
-    font-weight: bold;
-    /* Define a fonte em negrito para o preço atual */
-}
-
-.anime .content .btn {
-    margin-left: 30px;
-    background-color: var(--red);
-    color: var(--white-color);
-    padding: 10px 72px;
-    border-radius: 5px;
-    text-decoration: none;
-    text-align: center;
-    display: block;
-    font-size: 1.5rem;
-}
-
-.anime .content h3 {
-    font-size: 1.7rem;
-    color: var(--white-color);
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 5px;
-    /* Adiciona espaço entre o título e as estrelas */
-}
-
-/* Estrelas */
-.anime .content .rating {
-    text-align: center;
-    /* Centraliza as estrelas */
-    margin-top: 5px;
-    /* Adiciona um pequeno espaço entre o nome e as estrelas */
-}
-
-.anime .content .rating span {
-    font-size: 14px;
-    /* Define o tamanho padrão das estrelas */
-    color: var(--yellow);
-    /* Cor das estrelas */
-}
-
-
-
-/* Parte inicial dos mangás de ação */
-.action {
-    padding: 5rem;
-}
-
-.action .box {
-    width: 320px;
-    /* Largura fixa */
-    height: 350px;
-    /* Altura fixa */
-    overflow: hidden;
-    /* Garante que a imagem não ultrapasse os limites do contêiner */
-    display: flex;
-    /* Para alinhar a imagem no centro vertical e horizontalmente */
-    justify-content: center;
-    /* Para alinhar a imagem no centro horizontalmente */
-    align-items: center;
-    /* Para alinhar a imagem no centro verticalmente */
-}
-
-.action .box img {
-    max-width: 100%;
-    /* Garante que a imagem não ultrapasse a largura do contêiner */
-    max-height: 100%;
-    /* Garante que a imagem não ultrapasse a altura do contêiner */
-    width: auto;
-    /* Para manter a proporção da imagem */
-    height: auto;
-    /* Para manter a proporção da imagem */
-}
+.anime .content .btn, 
 
 .action .content .price-and-button,
 .action .content .price,
-.action .content .btn {
-    display: flex;
-    /* Ativa o flexbox */
-    align-items: center;
-    /* Centraliza verticalmente */
-    justify-content: center;
-    /* Centraliza horizontalmente */
-    margin-top: 10px;
-    /* Adiciona um espaçamento superior */
-}
-
-.action .content .price {
-    font-size: 1.8rem;
-    /* Define o tamanho da fonte do preço */
-    color: var(--white-color);
-    /* Define a cor do texto do preço */
-    text-align: center;
-    /* Centraliza o texto do preço */
-}
-
-.action .content .price del {
-    color: var(--gray);
-    /* Define a cor do texto riscado (preço original) */
-    text-decoration: line-through;
-    /* Adiciona o efeito de texto riscado */
-    margin-right: 5px;
-    /* Adiciona um espaçamento à direita entre o preço original e o atual */
-}
-
-.action .content .price span {
-    color: var(--red);
-    /* Define a cor do texto do preço atual */
-    font-weight: bold;
-    /* Define a fonte em negrito para o preço atual */
-}
-
-.action .content .btn {
-    margin-left: 30px;
-    background-color: var(--red);
-    color: var(--white-color);
-    padding: 10px 72px;
-    border-radius: 5px;
-    text-decoration: none;
-    text-align: center;
-    display: block;
-    font-size: 1.5rem;
-}
-
-.action .content h3 {
-    font-size: 1.7rem;
-    color: var(--white-color);
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 5px;
-    /* Adiciona espaço entre o título e as estrelas */
-}
-
-/* Estrelas */
-.action .content .rating {
-    text-align: center;
-    /* Centraliza as estrelas */
-    margin-top: 5px;
-    /* Adiciona um pequeno espaço entre o nome e as estrelas */
-}
-
-.action .content .rating span {
-    font-size: 14px;
-    /* Define o tamanho padrão das estrelas */
-    color: var(--yellow);
-    /* Cor das estrelas */
-}
-
-/*Parte final dos mangas de acao*/
-
-
-
-/* Parte inicial dos mangás infantis */
-.child {
-    padding: 5rem;
-}
-
-.child .box {
-    width: 320px;
-    /* Largura fixa */
-    height: 350px;
-    /* Altura fixa */
-    overflow: hidden;
-    /* Garante que a imagem não ultrapasse os limites do contêiner */
-    display: flex;
-    /* Para alinhar a imagem no centro vertical e horizontalmente */
-    justify-content: center;
-    /* Para alinhar a imagem no centro horizontalmente */
-    align-items: center;
-    /* Para alinhar a imagem no centro verticalmente */
-}
-
-.child .box img {
-    max-width: 100%;
-    /* Garante que a imagem não ultrapasse a largura do contêiner */
-    max-height: 100%;
-    /* Garante que a imagem não ultrapasse a altura do contêiner */
-    width: auto;
-    /* Para manter a proporção da imagem */
-    height: auto;
-    /* Para manter a proporção da imagem */
-}
+.action .content .btn,
 
 .child .content .price-and-button,
 .child .content .price,
-.child .content .btn {
-    display: flex;
-    /* Ativa o flexbox */
-    align-items: center;
-    /* Centraliza verticalmente */
-    justify-content: center;
-    /* Centraliza horizontalmente */
-    margin-top: 10px;
-    /* Adiciona um espaçamento superior */
-}
-
-.child .content .price {
-    font-size: 1.8rem;
-    /* Define o tamanho da fonte do preço */
-    color: var(--white-color);
-    /* Define a cor do texto do preço */
-    text-align: center;
-    /* Centraliza o texto do preço */
-}
-
-.child .content .price del {
-    color: var(--gray);
-    /* Define a cor do texto riscado (preço original) */
-    text-decoration: line-through;
-    /* Adiciona o efeito de texto riscado */
-    margin-right: 5px;
-    /* Adiciona um espaçamento à direita entre o preço original e o atual */
-}
-
-.child .content .price span {
-    color: var(--red);
-    /* Define a cor do texto do preço atual */
-    font-weight: bold;
-    /* Define a fonte em negrito para o preço atual */
-}
-
-.child .content .btn {
-    margin-left: 30px;
-    background-color: var(--red);
-    color: var(--white-color);
-    padding: 10px 72px;
-    border-radius: 5px;
-    text-decoration: none;
-    text-align: center;
-    display: block;
-    font-size: 1.5rem;
-}
-
-.child .content h3 {
-    font-size: 1.7rem;
-    color: var(--white-color);
-    text-transform: uppercase;
-    text-align: center;
-    margin-bottom: 5px;
-    /* Adiciona espaço entre o título e as estrelas */
-}
-
-/* Estrelas */
-.child .content .rating {
-    text-align: center;
-    /* Centraliza as estrelas */
-    margin-top: 5px;
-    /* Adiciona um pequeno espaço entre o nome e as estrelas */
-}
-
-.child .content .rating span {
-    font-size: 14px;
-    /* Define o tamanho padrão das estrelas */
-    color: var(--yellow);
-    /* Cor das estrelas */
-}
-
-/*Parte final*/
-
-
-
-
-/*Parte inicial de todos os mangas*/
-/* Estilo para a seção de Todos os Mangás */
-.family {
-    padding: 5rem;
-}
-
-.family .box {
-    width: 320px;
-    /* Largura fixa */
-    height: 350px;
-    /* Altura fixa */
-    overflow: hidden;
-    /* Garante que a imagem não ultrapasse os limites do contêiner */
-    display: flex;
-    /* Para alinhar a imagem no centro vertical e horizontalmente */
-    justify-content: center;
-    /* Para alinhar a imagem no centro horizontalmente */
-    align-items: center;
-    /* Para alinhar a imagem no centro verticalmente */
-}
-
-.family .box img {
-    max-width: 100%;
-    /* Garante que a imagem não ultrapasse a largura do contêiner */
-    max-height: 100%;
-    /* Garante que a imagem não ultrapasse a altura do contêiner */
-    width: auto;
-    /* Para manter a proporção da imagem */
-    height: auto;
-    /* Para manter a proporção da imagem */
-}
+.child .content .btn,
 
 .family .content .price-and-button,
 .family .content .price,
@@ -553,6 +238,9 @@ header .icons #menu-bars {
     /* Adiciona um espaçamento superior */
 }
 
+.anime .content .price, 
+.action .content .price,
+.child .content .price,
 .family .content .price {
     font-size: 1.8rem;
     /* Define o tamanho da fonte do preço */
@@ -562,7 +250,11 @@ header .icons #menu-bars {
     /* Centraliza o texto do preço */
 }
 
-.family .content .price del {
+.anime .content .price del
+.action .content .price del,
+.child .content .price del,
+.family .content .price del
+{
     color: var(--gray);
     /* Define a cor do texto riscado (preço original) */
     text-decoration: line-through;
@@ -571,14 +263,22 @@ header .icons #menu-bars {
     /* Adiciona um espaçamento à direita entre o preço original e o atual */
 }
 
-.family .content .price span {
+.anime .content .price span,
+.action .content .price span,
+.child .content .price span,
+.family .content .price span
+{
     color: var(--red);
     /* Define a cor do texto do preço atual */
     font-weight: bold;
     /* Define a fonte em negrito para o preço atual */
 }
 
-.family .content .btn {
+.anime .content .btn,
+.action .content .btn,
+.child .content .btn,
+.family .content .btn
+{
     margin-left: 30px;
     background-color: var(--red);
     color: var(--white-color);
@@ -590,7 +290,10 @@ header .icons #menu-bars {
     font-size: 1.5rem;
 }
 
-.family .content h3 {
+.anime .content h3,
+.action .content h3,
+.child .content h3,
+.family .content h3{
     font-size: 1.7rem;
     color: var(--white-color);
     text-transform: uppercase;
@@ -600,18 +303,26 @@ header .icons #menu-bars {
 }
 
 /* Estrelas */
-.family .content .rating {
+.anime .content .rating,
+.action .content .rating,
+.child .content .rating,
+.family .content .rating
+{
     text-align: center;
     /* Centraliza as estrelas */
     margin-top: 5px;
     /* Adiciona um pequeno espaço entre o nome e as estrelas */
 }
 
-.family .content .rating span {
+.anime .content .rating span,
+.action .content .rating span,
+.child .content .rating span,
+.family .content .rating span
+{
     font-size: 14px;
     /* Define o tamanho padrão das estrelas */
     color: var(--yellow);
     /* Cor das estrelas */
 }
 
-/*parte final*/
+/* Parte final dos card dos mangas */
