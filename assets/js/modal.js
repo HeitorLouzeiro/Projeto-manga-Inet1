@@ -31,7 +31,6 @@ document.addEventListener('DOMContentLoaded', function () {
                 var comprarBtn = document.getElementById('comprarBtn');
                 comprarBtn.onclick = function () {
                     // Aqui você pode adicionar a lógica para a ação de compra
-                    console.log('Compra realizada para: ' + manga.titulo);
                     Swal.fire({
                         title: `${manga.titulo}`,
                         text: "Compra realizada com sucesso!",
