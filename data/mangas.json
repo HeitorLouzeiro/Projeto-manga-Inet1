@@ -2,287 +2,349 @@
   {
     "id": 1,
     "titulo": "Dragon Ball",
-    "autor": "Akira Toriyama"
+    "autor": "Akira Toriyama",
+    "imagem": "/imagens/capaHome/1.jpg"
   },
   {
     "id": 2,
     "titulo": "DEATH NOTE",
-    "autor": "Tsugumi Ohba"
+    "autor": "Tsugumi Ohba",
+    "imagem": "/imagens/capaHome/2.jpg"
   },
   {
     "id": 3,
     "titulo": "One-Punch Man",
-    "autor": "ONE"
+    "autor": "ONE",
+    "imagem": "/imagens/capaHome/3.jpg"
   },
   {
     "id": 4,
     "titulo": "Naruto",
-    "autor": "Masashi Kishimoto"
+    "autor": "Masashi Kishimoto",
+    "imagem": "/imagens/capaHome/4.jpeg"
   },
   {
     "id": 5,
-    "titulo": "Naruto vl5",
-    "autor": "Masashi Kishimoto"
+    "titulo": "Naruto vol.5",
+    "autor": "Masashi Kishimoto",
+    "imagem": "/imagens/capaPopulares/1.jpg"
   },
   {
     "id": 6,
-    "titulo": "One-Punch Man",
-    "autor": "ONE"
+    "titulo": "One-Punch Man vol.1",
+    "autor": "ONE",
+    "imagem": "/imagens/capaPopulares/2.jpg"
   },
   {
     "id": 7,
     "titulo": "Death Note",
-    "autor": "Tsugumi Ohba"
+    "autor": "Tsugumi Ohba",
+    "imagem": "/imagens/capaPopulares/3.webp"
   },
   {
     "id": 8,
     "titulo": "Black Clover",
-    "autor": "Yūki Tabata"
+    "autor": "Yūki Tabata",
+    "imagem": "/imagens/capaPopulares/4.jpg"
   },
   {
     "id": 9,
-    "titulo": "Jujutsu Kaisen vl4",
-    "autor": "Gege Akutami"
+    "titulo": "Jujutsu Kaisen vol.4",
+    "autor": "Gege Akutami",
+    "imagem": "/imagens/capaPopulares/5.webp"
   },
   {
     "id": 10,
-    "titulo": "Dragon ball V123",
-    "autor": "Akira Toriyama"
+    "titulo": "Dragon ball vol.123",
+    "autor": "Akira Toriyama",
+    "imagem": "/imagens/capaPopulares/6.jpg"
   },
   {
     "id": 11,
-    "titulo": "Kuroko's Basketball",
-    "autor": "Tadatoshi Fujimaki"
+    "titulo": "Kuroko's Basketball vol.23",
+    "autor": "Tadatoshi Fujimaki",
+    "imagem": "/imagens/capaPopulares/7.jpg"
   },
   {
     "id": 12,
-    "titulo": "My Hero Academia",
-    "autor": "Kōhei Horikoshi"
+    "titulo": "My Hero Academia vol.2",
+    "autor": "Kōhei Horikoshi",
+    "imagem": "/imagens/capaPopulares/8.jpg"
   },
   {
     "id": 13,
-    "titulo": "Dr. Stone",
-    "autor": "Riichiro Inagaki"
+    "titulo": "Dr. Stone vol.24",
+    "autor": "Riichiro Inagaki",
+    "imagem": "/imagens/capaPopulares/9.webp"
   },
   {
     "id": 14,
     "titulo": "Tokyo Revengers",
-    "autor": "Ken Wakui"
+    "autor": "Ken Wakui",
+    "imagem": "/imagens/capaPopulares/10.jpg"
   },
   {
     "id": 15,
     "titulo": "one pince",
-    "autor": "Eiichiro Oda"
+    "autor": "Eiichiro Oda",
+    "imagem": "/imagens/capaPopulares/11.webp"
   },
   {
     "id": 16,
     "titulo": "naruto shipunden vol.51",
-    "autor": "Masashi Kishimoto"
+    "autor": "Masashi Kishimoto",
+    "imagem": "/imagens/capaPopulares/12.jpg"
   },
   {
     "id": 17,
     "titulo": "Homem-Aranha: O Impostor vol.3",
-    "autor": "J. J. Abrams"
-},
-{
+    "autor": "Marvel Comics",
+    "imagem": "/imagens/capaAcao/1.webp"
+  },
+  {
     "id": 18,
     "titulo": "Street Fighters vol.2",
-    "autor": "Ken Siu-Chong"
-},
-{
+    "autor": "Capcom",
+    "imagem": "/imagens/capaAcao/2.jpg"
+  },
+  {
     "id": 19,
     "titulo": "Venom vol.5",
-    "autor": "Donny Cates"
-},
-{
+    "autor": "Marvel Comics",
+    "imagem": "/imagens/capaAcao/3.jpg"
+  },
+  {
     "id": 20,
     "titulo": "Wolverine",
-    "autor": "Chris Claremont"
-},
-{
+    "autor": "Marvel Comics",
+    "imagem": "/imagens/capaAcao/4.jpg"
+  },
+  {
     "id": 21,
     "titulo": "HOMEM DE FERRO VOL.06",
-    "autor": "David Michelinie"
-},
-{
+    "autor": "Marvel Comics",
+    "imagem": "/imagens/capaAcao/5.webp"
+  },
+  {
     "id": 22,
     "titulo": "Immortal Hulk",
-    "autor": "Al Ewing"
-},
-{
+    "autor": "Marvel Comics",
+    "imagem": "/imagens/capaAcao/6.jpg"
+  },
+  {
     "id": 23,
     "titulo": "Capitão América vol.17",
-    "autor": "Steve Englehart"
-},
-{
+    "autor": "Marvel Comics",
+    "imagem": "/imagens/capaAcao/7.webp"
+  },
+  {
     "id": 24,
     "titulo": "Coringa vol.1",
-    "autor": "Brian Azzarello"
-},
-{
-  "id": 25,
-  "titulo": "Beyblade",
-  "autor": "Tatsunoko Takara"
-},
-{
-  "id": 26,
-  "titulo": "Beyblade Burst Turbo",
-  "autor": "Tatsunoko Takara"
-},
-{
-  "id": 27,
-  "titulo": "Bakugan: Battle Planet",
-  "autor": "Spin Master"
-},
-{
-  "id": 28,
-  "titulo": "Sonic X",
-  "autor": "Sonic Team"
-},
-{
-  "id": 29,
-  "titulo": "Yowamushi Pedal vol.16",
-  "autor": "Wataru Watanabe"
-},
-{
-  "id": 30,
-  "titulo": "Dragon ball vol.1",
-  "autor": "Akira Toriyama"
-},
-{
-  "id": 31,
-  "titulo": "Go Astro Boy Go! vol.8",
-  "autor": "Osamu Tezuka"
-},
-{
-  "id": 32,
-  "titulo": "Naruto vol.5",
-  "autor": "Masashi Kishimoto"
-},
-{
-  "id": 33,
-  "titulo": "One-Punch Man",
-  "autor": "One, Yusuke Murata"
-},
-{
-  "id": 34,
-  "titulo": "Death Note",
-  "autor": "Tsugumi Ohba"
-},
-{
-  "id": 35,
-  "titulo": "Black Clover",
-  "autor": "Yūki Tabata"
-},
-{
-  "id": 36,
-  "titulo": "Jujutsu Kaisen vol.4",
-  "autor": "Gege Akutami"
-},
-{
-  "id": 37,
-  "titulo": "Haikyu!!",
-  "autor": "Haruichi Furudate"
-},
-{
-  "id": 38,
-  "titulo": "Kuroko's Basketball",
-  "autor": "Tadatoshi Fujimaki"
-},
-{
-  "id": 39,
-  "titulo": "My Hero Academia",
-  "autor": "Kōhei Horikoshi"
-},
-{
-  "id": 40,
-  "titulo": "Dr. Stone",
-  "autor": "Riichiro Inagaki"
-},
-{
-  "id": 41,
-  "titulo": "Tokyo Revengers",
-  "autor": "Ken Wakui"
-},
-{
-  "id": 42,
-  "titulo": "one pince",
-  "autor": "Eiichiro Oda"
-},
-{
-  "id": 43,
-  "titulo": "naruto shipunden vol.51",
-  "autor": "Masashi Kishimoto"
-},
-{
-  "id": 44,
-  "titulo": "Homem-Aranha: O Impostor vol.3",
-  "autor": "Nick Spencer"
-},
-{
-  "id": 45,
-  "titulo": "Street Fighters vol.2",
-  "autor": "Matt Moylan"
-},
-{
-  "id": 46,
-  "titulo": "Venom vol.5",
-  "autor": "Donny Cates"
-},
-{
-  "id": 47,
-  "titulo": "Wolverine",
-  "autor": "Chris Claremont"
-},
-{
-  "id": 48,
-  "titulo": "HOMEM DE FERRO VOL.06",
-  "autor": "Matt Fraction"
-},
-{
-  "id": 49,
-  "titulo": "Immortal Hulk",
-  "autor": "Al Ewing"
-},
-{
-  "id": 50,
-  "titulo": "Capitão América vol.17",
-  "autor": "Ta-Nehisi Coates"
-},
-{
-  "id": 51,
-  "titulo": "Coringa vol.1",
-  "autor": "Geoff Johns"
-},
-{
-  "id": 52,
-  "titulo": "Beyblade Burst Turbo",
-  "autor": "Hiro Morita"
-},
-{
-  "id": 53,
-  "titulo": "Bakugan: Battle Planet",
-  "autor": "Spin Master"
-},
-{
-  "id": 54,
-  "titulo": "Sonic X",
-  "autor": "TMS Entertainment"
-},
-{
-  "id": 55,
-  "titulo": "Yowamushi Pedal vol.16",
-  "autor": "Wataru Watanabe"
-},
-{
-  "id": 56,
-  "titulo": "Dragon ball vol.1",
-  "autor": "Akira Toriyama"
-},
-{
-  "id": 57,
-  "titulo": "Go Astro Boy Go! vol.8",
-  "autor": "Osamu Tezuka"
-}
-
+    "autor": "DC Comics",
+    "imagem": "/imagens/capaAcao/8.webp"
+  },
+  {
+    "id": 25,
+    "titulo": "Beyblade",
+    "autor": "Takao Aoki",
+    "imagem": "/imagens/capaInfantil/1.jpg"
+  },
+  {
+    "id": 26,
+    "titulo": "Beyblade Burst Turbo",
+    "autor": "Takao Aoki",
+    "imagem": "/imagens/capaInfantil/2.jpg"
+  },
+  {
+    "id": 27,
+    "titulo": "Bakugan: Battle Planet",
+    "autor": "Takara Tomy",
+    "imagem": "/imagens/capaInfantil/3.webp"
+  },
+  {
+    "id": 28,
+    "titulo": "Sonic X",
+    "autor": "Sonic Team",
+    "imagem": "/imagens/capaInfantil/4.jpg"
+  },
+  {
+    "id": 29,
+    "titulo": "Yowamushi Pedal vol.16",
+    "autor": "Wataru Watanabe",
+    "imagem": "/imagens/capaInfantil/5.jpg"
+  },
+  {
+    "id": 30,
+    "titulo": "Dragon ball vol.1",
+    "autor": "Akira Toriyama",
+    "imagem": "/imagens/capaInfantil/6.jpg"
+  },
+  {
+    "id": 31,
+    "titulo": "Go Astro Boy Go! vol.8",
+    "autor": "Osamu Tezuka",
+    "imagem": "/imagens/capaInfantil/7.jpg"
+  },
+  {
+    "id": 32,
+    "titulo": "Naruto vol.5",
+    "autor": "Masashi Kishimoto",
+    "imagem": "/imagens/todosMangas/1.jpg"
+  },
+  {
+    "id": 33,
+    "titulo": "One-Punch Man vol.1",
+    "autor": "ONE",
+    "imagem": "/imagens/todosMangas/2.jpg"
+  },
+  {
+    "id": 34,
+    "titulo": "Death Note",
+    "autor": "Tsugumi Ohba",
+    "imagem": "/imagens/todosMangas/3.webp"
+  },
+  {
+    "id": 35,
+    "titulo": "Black Clover",
+    "autor": "Yūki Tabata",
+    "imagem": "/imagens/todosMangas/4.jpg"
+  },
+  {
+    "id": 36,
+    "titulo": "Jujutsu Kaisen vol.l4",
+    "autor": "Gege Akutami",
+    "imagem": "/imagens/todosMangas/5.webp"
+  },
+  {
+    "id": 37,
+    "titulo": "Dragon ball Vol.123",
+    "autor": "Akira Toriyama",
+    "imagem": "/imagens/todosMangas/6.jpg"
+  },
+  {
+    "id": 38,
+    "titulo": "Kuroko's Basketball vol.23",
+    "autor": "Tadatoshi Fujimaki",
+    "imagem": "/imagens/todosMangas/7.jpg"
+  },
+  {
+    "id": 39,
+    "titulo": "My Hero Academia vol.2",
+    "autor": "Kōhei Horikoshi",
+    "imagem": "/imagens/todosMangas/8.jpg"
+  },
+  {
+    "id": 40,
+    "titulo": "Dr. Stone vol.24",
+    "autor": "Riichiro Inagaki",
+    "imagem": "/imagens/todosMangas/9.webp"
+  },
+  {
+    "id": 41,
+    "titulo": "Tokyo Revengers",
+    "autor": "Ken Wakui",
+    "imagem": "/imagens/todosMangas/10.jpg"
+  },
+  {
+    "id": 42,
+    "titulo": "one pince",
+    "autor": "Eiichiro Oda",
+    "imagem": "/imagens/todosMangas/11.webp"
+  },
+  {
+    "id": 43,
+    "titulo": "naruto shipunden vol.51",
+    "autor": "Masashi Kishimoto",
+    "imagem": "/imagens/todosMangas/12.jpg"
+  },
+  {
+    "id": 44,
+    "titulo": "Homem-Aranha: O Impostor vol.3",
+    "autor": "Chip Zdarsky",
+    "imagem": "/imagens/todosMangas/13.webp"
+  },
+  {
+    "id": 18,
+    "titulo": "Street Fighters vol.2",
+    "autor": "Ken Siu-Chong",
+    "imagem": "/imagens/todosMangas/14.jpg"
+  },
+  {
+    "id": 45,
+    "titulo": "Venom vol.5",
+    "autor": "Donny Cates",
+    "imagem": "/imagens/todosMangas/15.jpg"
+  },
+  {
+    "id": 46,
+    "titulo": "Wolverine",
+    "autor": "Ben Percy",
+    "imagem": "/imagens/todosMangas/16.jpg"
+  },
+  {
+    "id": 47,
+    "titulo": " HOMEM DE FERRO VOL.06",
+    "autor": "Christopher Cantwell",
+    "imagem": "/imagens/todosMangas/17.webp"
+  },
+  {
+    "id": 48,
+    "titulo": "Immortal Hulk",
+    "autor": "Al Ewing",
+    "imagem": "/imagens/todosMangas/18.jpg"
+  },
+  {
+    "id": 49,
+    "titulo": "Capitão América vol.17",
+    "autor": "Ta-Nehisi Coates",
+    "imagem": "/imagens/todosMangas/19.webp"
+  },
+  {
+    "id": 50,
+    "titulo": "Coringa vol.1",
+    "autor": "James Tynion IV",
+    "imagem": "/imagens/todosMangas/20.webp"
+  },
+  {
+    "id": 51,
+    "titulo": "Beyblade",
+    "autor": "Takao Aoki",
+    "imagem": "/imagens/todosMangas/21.jpg"
+  },
+  {
+    "id": 52,
+    "titulo": "Beyblade Burst Turbo",
+    "autor": "Hiro Morita",
+    "imagem": "/imagens/todosMangas/22.jpg"
+  },
+  {
+    "id": 53,
+    "titulo": "Bakugan: Battle Planet",
+    "autor": "Bakugan Battle Brawlers Project",
+    "imagem": "/imagens/todosMangas/23.webp"
+  },
+  {
+    "id": 54,
+    "titulo": "Sonic X",
+    "autor": "Sonic Team",
+    "imagem": "/imagens/todosMangas/24.jpg"
+  },
+  {
+    "id": 55,
+    "titulo": "Yowamushi Pedal vol.16",
+    "autor": "Wataru Watanabe",
+    "imagem": "/imagens/todosMangas/25.jpg"
+  },
+  {
+    "id": 56,
+    "titulo": "Dragon ball vol.1",
+    "autor": "Akira Toriyama",
+    "imagem": "/imagens/todosMangas/26.jpg"
+  },
+  {
+    "id": 57,
+    "titulo": "Go Astro Boy Go! vol.8",
+    "autor": "Osamu Tezuka",
+    "imagem": "/imagens/todosMangas/27.jpg"
+  }
 ]

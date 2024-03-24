@@ -25,6 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     <h2>ID: ${manga.id}</h2>
                     <h2>Título: ${manga.titulo}</h2>
                     <h2>Autor: ${manga.autor}</h2>
+                    <img src='${manga.imagem}' alt="${manga.titulo}">
                 `;
 
                 // Adicionar evento de clique para o botão de comprar
