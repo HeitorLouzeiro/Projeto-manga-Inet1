@@ -53,13 +53,16 @@ section:nth-child(even) {
     /* torna a imagem redonda */
 }
 
+.logo #text {
+    color: red; /* Define a cor do texto para vermelho */
+}
 
 
 header {
     top: 0;
     left: 0;
     right: 0;
-    padding: 1rem 7%;
+    padding: 1rem 5rem;
     display: flex;
     position: fixed;
     align-items: center;
@@ -92,7 +95,7 @@ header {
 }
 
 header .logo {
-    color: var(--white-color);
+    color: var(--red);
     font-size: 2.5rem;
     font-weight: bolder;
 }

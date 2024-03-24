@@ -534,7 +534,6 @@
     t.body.classList.add("litespeed_lazyloaded");
   }
   function n() {
-    console.log("[LiteSpeed] Start Lazy Load Images"),
       (d = new LazyLoad({
         elements_selector: "[data-lazyloaded]",
         callback_finish: a,
@@ -565,7 +564,6 @@ const litespeed_ui_events = [
 ];
 var urlCreator = window.URL || window.webkitURL;
 function litespeed_load_delayed_js_force() {
-  console.log("[LiteSpeed] Start Load JS Delayed"),
     litespeed_ui_events.forEach((e) => {
       window.removeEventListener(e, litespeed_load_delayed_js_force, {
         passive: !0,

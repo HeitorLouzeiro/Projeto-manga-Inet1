@@ -25,13 +25,13 @@ document.addEventListener('DOMContentLoaded', function () {
                     <h2>ID: ${manga.id}</h2>
                     <h2>Título: ${manga.titulo}</h2>
                     <h2>Autor: ${manga.autor}</h2>
+                    <img src='${manga.imagem}' alt="${manga.titulo}">
                 `;
 
                 // Adicionar evento de clique para o botão de comprar
                 var comprarBtn = document.getElementById('comprarBtn');
                 comprarBtn.onclick = function () {
                     // Aqui você pode adicionar a lógica para a ação de compra
-                    console.log('Compra realizada para: ' + manga.titulo);
                     Swal.fire({
                         title: `${manga.titulo}`,
                         text: "Compra realizada com sucesso!",
