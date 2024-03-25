@@ -3,348 +3,405 @@
     "id": 1,
     "titulo": "Dragon Ball",
     "autor": "Akira Toriyama",
-    "imagem": "/imagens/capaHome/1.jpg"
+    "imagem": "/imagens/capaInfantil/6.jpg",
+    "preco": "R$20,22"
   },
   {
     "id": 2,
     "titulo": "DEATH NOTE",
     "autor": "Tsugumi Ohba",
-    "imagem": "/imagens/capaHome/2.jpg"
+    "imagem": "/imagens/capaPopulares/3.webp",
+    "preco": "R$33,92"
   },
   {
     "id": 3,
     "titulo": "One-Punch Man",
     "autor": "ONE",
-    "imagem": "/imagens/capaHome/3.jpg"
+    "imagem": "/imagens/capaPopulares/2.jpg",
+    "preco": "R$33,92"
   },
   {
     "id": 4,
     "titulo": "Naruto",
     "autor": "Masashi Kishimoto",
-    "imagem": "/imagens/capaHome/4.jpeg"
+    "imagem": "/imagens/capaPopulares/1.jpg",
+    "preco": "R$33,92"
   },
   {
     "id": 5,
     "titulo": "Naruto vol.5",
     "autor": "Masashi Kishimoto",
-    "imagem": "/imagens/capaPopulares/1.jpg"
+    "imagem": "/imagens/capaPopulares/1.jpg",
+    "preco": "R$33,92"
   },
   {
     "id": 6,
     "titulo": "One-Punch Man vol.1",
     "autor": "ONE",
-    "imagem": "/imagens/capaPopulares/2.jpg"
+    "imagem": "/imagens/capaPopulares/2.jpg",
+    "preco": "R$33,92"
   },
   {
     "id": 7,
     "titulo": "Death Note",
     "autor": "Tsugumi Ohba",
-    "imagem": "/imagens/capaPopulares/3.webp"
+    "imagem": "/imagens/capaPopulares/3.webp",
+    "preco": "R$33,92"
   },
   {
     "id": 8,
     "titulo": "Black Clover",
     "autor": "Yūki Tabata",
-    "imagem": "/imagens/capaPopulares/4.jpg"
+    "imagem": "/imagens/capaPopulares/4.jpg",
+    "preco": "R$33,92"
   },
   {
     "id": 9,
     "titulo": "Jujutsu Kaisen vol.4",
     "autor": "Gege Akutami",
-    "imagem": "/imagens/capaPopulares/5.webp"
+    "imagem": "/imagens/capaPopulares/5.webp",
+    "preco": "R$33,92"
   },
   {
     "id": 10,
     "titulo": "Dragon ball vol.123",
     "autor": "Akira Toriyama",
-    "imagem": "/imagens/capaPopulares/6.jpg"
+    "imagem": "/imagens/capaPopulares/6.jpg",
+    "preco": "R$33,92"
   },
   {
     "id": 11,
     "titulo": "Kuroko's Basketball vol.23",
     "autor": "Tadatoshi Fujimaki",
-    "imagem": "/imagens/capaPopulares/7.jpg"
+    "imagem": "/imagens/capaPopulares/7.jpg",
+    "preco": "R$33,92"
   },
   {
     "id": 12,
     "titulo": "My Hero Academia vol.2",
     "autor": "Kōhei Horikoshi",
-    "imagem": "/imagens/capaPopulares/8.jpg"
+    "imagem": "/imagens/capaPopulares/8.jpg",
+    "preco": "R$33,92"
   },
   {
     "id": 13,
     "titulo": "Dr. Stone vol.24",
     "autor": "Riichiro Inagaki",
-    "imagem": "/imagens/capaPopulares/9.webp"
+    "imagem": "/imagens/capaPopulares/9.webp",
+    "preco": "R$33,92"
   },
   {
     "id": 14,
     "titulo": "Tokyo Revengers",
     "autor": "Ken Wakui",
-    "imagem": "/imagens/capaPopulares/10.jpg"
+    "imagem": "/imagens/capaPopulares/10.jpg",
+    "preco": "R$33,92"
   },
   {
     "id": 15,
     "titulo": "one pince",
     "autor": "Eiichiro Oda",
-    "imagem": "/imagens/capaPopulares/11.webp"
+    "imagem": "/imagens/capaPopulares/11.webp",
+    "preco": "R$33,92"
   },
   {
     "id": 16,
     "titulo": "naruto shipunden vol.51",
     "autor": "Masashi Kishimoto",
-    "imagem": "/imagens/capaPopulares/12.jpg"
+    "imagem": "/imagens/capaPopulares/12.jpg",
+    "preco": "R$33,92"
   },
   {
     "id": 17,
     "titulo": "Homem-Aranha: O Impostor vol.3",
     "autor": "Marvel Comics",
-    "imagem": "/imagens/capaAcao/1.webp"
+    "imagem": "/imagens/capaAcao/1.webp",
+    "preco": "R$33,92"
   },
   {
     "id": 18,
     "titulo": "Street Fighters vol.2",
     "autor": "Capcom",
-    "imagem": "/imagens/capaAcao/2.jpg"
+    "imagem": "/imagens/capaAcao/2.jpg",
+    "preco": "R$33,92"
   },
   {
     "id": 19,
     "titulo": "Venom vol.5",
     "autor": "Marvel Comics",
-    "imagem": "/imagens/capaAcao/3.jpg"
+    "imagem": "/imagens/capaAcao/3.jpg",
+    "preco": "R$33,92"
   },
   {
     "id": 20,
     "titulo": "Wolverine",
     "autor": "Marvel Comics",
-    "imagem": "/imagens/capaAcao/4.jpg"
+    "imagem": "/imagens/capaAcao/4.jpg",
+    "preco": "R$33,92"
   },
   {
     "id": 21,
     "titulo": "HOMEM DE FERRO VOL.06",
     "autor": "Marvel Comics",
-    "imagem": "/imagens/capaAcao/5.webp"
+    "imagem": "/imagens/capaAcao/5.webp",
+    "preco": "R$33,92"
   },
   {
     "id": 22,
     "titulo": "Immortal Hulk",
     "autor": "Marvel Comics",
-    "imagem": "/imagens/capaAcao/6.jpg"
+    "imagem": "/imagens/capaAcao/6.jpg",
+    "preco": "R$33,92"
   },
   {
     "id": 23,
     "titulo": "Capitão América vol.17",
     "autor": "Marvel Comics",
-    "imagem": "/imagens/capaAcao/7.webp"
+    "imagem": "/imagens/capaAcao/7.webp",
+    "preco": "R$33,92"
   },
   {
     "id": 24,
     "titulo": "Coringa vol.1",
     "autor": "DC Comics",
-    "imagem": "/imagens/capaAcao/8.webp"
+    "imagem": "/imagens/capaAcao/8.webp",
+    "preco": "R$33,92"
   },
   {
     "id": 25,
     "titulo": "Beyblade",
     "autor": "Takao Aoki",
-    "imagem": "/imagens/capaInfantil/1.jpg"
+    "imagem": "/imagens/capaInfantil/1.jpg",
+    "preco": "R$20,22"
   },
   {
     "id": 26,
     "titulo": "Beyblade Burst Turbo",
-    "autor": "Takao Aoki",
-    "imagem": "/imagens/capaInfantil/2.jpg"
+    "autor": "T",
+    "preco": "R$20,22"
   },
   {
     "id": 27,
     "titulo": "Bakugan: Battle Planet",
     "autor": "Takara Tomy",
-    "imagem": "/imagens/capaInfantil/3.webp"
+    "imagem": "/imagens/capaInfantil/3.webp",
+    "preco": "R$20,22"
   },
   {
     "id": 28,
     "titulo": "Sonic X",
     "autor": "Sonic Team",
-    "imagem": "/imagens/capaInfantil/4.jpg"
+    "imagem": "/imagens/capaInfantil/4.jpg",
+    "preco": "R$20,22"
   },
   {
     "id": 29,
     "titulo": "Yowamushi Pedal vol.16",
     "autor": "Wataru Watanabe",
-    "imagem": "/imagens/capaInfantil/5.jpg"
+    "imagem": "/imagens/capaInfantil/5.jpg",
+    "preco": "R$20,22"
   },
   {
     "id": 30,
     "titulo": "Dragon ball vol.1",
     "autor": "Akira Toriyama",
-    "imagem": "/imagens/capaInfantil/6.jpg"
+    "imagem": "/imagens/capaInfantil/6.jpg",
+    "preco": "R$20,22"
   },
   {
     "id": 31,
     "titulo": "Go Astro Boy Go! vol.8",
     "autor": "Osamu Tezuka",
-    "imagem": "/imagens/capaInfantil/7.jpg"
+    "imagem": "/imagens/capaInfantil/7.jpg",
+    "preco": "R$20,22"
   },
   {
     "id": 32,
     "titulo": "Naruto vol.5",
     "autor": "Masashi Kishimoto",
-    "imagem": "/imagens/todosMangas/1.jpg"
+    "imagem": "/imagens/todosMangas/1.jpg",
+    "preco": "R$33,92"
   },
   {
     "id": 33,
     "titulo": "One-Punch Man vol.1",
     "autor": "ONE",
-    "imagem": "/imagens/todosMangas/2.jpg"
+    "imagem": "/imagens/todosMangas/2.jpg",
+    "preco": "R$33,92"
   },
   {
     "id": 34,
     "titulo": "Death Note",
     "autor": "Tsugumi Ohba",
-    "imagem": "/imagens/todosMangas/3.webp"
+    "imagem": "/imagens/todosMangas/3.webp",
+    "preco": "R$33,92"
   },
   {
     "id": 35,
     "titulo": "Black Clover",
     "autor": "Yūki Tabata",
-    "imagem": "/imagens/todosMangas/4.jpg"
+    "imagem": "/imagens/todosMangas/4.jpg",
+    "preco": "R$33,92"
   },
   {
     "id": 36,
     "titulo": "Jujutsu Kaisen vol.l4",
     "autor": "Gege Akutami",
-    "imagem": "/imagens/todosMangas/5.webp"
+    "imagem": "/imagens/todosMangas/5.webp",
+    "preco": "R$33,92"
   },
   {
     "id": 37,
     "titulo": "Dragon ball Vol.123",
     "autor": "Akira Toriyama",
-    "imagem": "/imagens/todosMangas/6.jpg"
+    "imagem": "/imagens/todosMangas/6.jpg",
+    "preco": "R$33,92"
   },
   {
     "id": 38,
     "titulo": "Kuroko's Basketball vol.23",
     "autor": "Tadatoshi Fujimaki",
-    "imagem": "/imagens/todosMangas/7.jpg"
+    "imagem": "/imagens/todosMangas/7.jpg",
+    "preco": "R$33,92"
   },
   {
     "id": 39,
     "titulo": "My Hero Academia vol.2",
     "autor": "Kōhei Horikoshi",
-    "imagem": "/imagens/todosMangas/8.jpg"
+    "imagem": "/imagens/todosMangas/8.jpg",
+    "preco": "R$33,92"
   },
   {
     "id": 40,
     "titulo": "Dr. Stone vol.24",
     "autor": "Riichiro Inagaki",
-    "imagem": "/imagens/todosMangas/9.webp"
+    "imagem": "/imagens/todosMangas/9.webp",
+    "preco": "R$33,92"
   },
   {
     "id": 41,
     "titulo": "Tokyo Revengers",
     "autor": "Ken Wakui",
-    "imagem": "/imagens/todosMangas/10.jpg"
+    "imagem": "/imagens/todosMangas/10.jpg",
+    "preco": "R$33,92"
   },
   {
     "id": 42,
     "titulo": "one pince",
     "autor": "Eiichiro Oda",
-    "imagem": "/imagens/todosMangas/11.webp"
+    "imagem": "/imagens/todosMangas/11.webp",
+    "preco": "R$33,92"
   },
   {
     "id": 43,
     "titulo": "naruto shipunden vol.51",
     "autor": "Masashi Kishimoto",
-    "imagem": "/imagens/todosMangas/12.jpg"
+    "imagem": "/imagens/todosMangas/12.jpg",
+    "preco": "R$33,92"
   },
   {
     "id": 44,
     "titulo": "Homem-Aranha: O Impostor vol.3",
     "autor": "Chip Zdarsky",
-    "imagem": "/imagens/todosMangas/13.webp"
+    "imagem": "/imagens/todosMangas/13.webp",
+    "preco": "R$33,92"
   },
   {
     "id": 18,
     "titulo": "Street Fighters vol.2",
     "autor": "Ken Siu-Chong",
-    "imagem": "/imagens/todosMangas/14.jpg"
+    "imagem": "/imagens/todosMangas/14.jpg",
+    "preco": "R$33,92"
   },
   {
     "id": 45,
     "titulo": "Venom vol.5",
     "autor": "Donny Cates",
-    "imagem": "/imagens/todosMangas/15.jpg"
+    "imagem": "/imagens/todosMangas/15.jpg",
+    "preco": "R$33,92"
   },
   {
     "id": 46,
     "titulo": "Wolverine",
     "autor": "Ben Percy",
-    "imagem": "/imagens/todosMangas/16.jpg"
+    "imagem": "/imagens/todosMangas/16.jpg",
+    "preco": "R$33,92"
   },
   {
     "id": 47,
     "titulo": " HOMEM DE FERRO VOL.06",
     "autor": "Christopher Cantwell",
-    "imagem": "/imagens/todosMangas/17.webp"
+    "imagem": "/imagens/todosMangas/17.webp",
+    "preco": "R$33,92"
   },
   {
     "id": 48,
     "titulo": "Immortal Hulk",
     "autor": "Al Ewing",
-    "imagem": "/imagens/todosMangas/18.jpg"
+    "imagem": "/imagens/todosMangas/18.jpg",
+    "preco": "R$33,92"
   },
   {
     "id": 49,
     "titulo": "Capitão América vol.17",
     "autor": "Ta-Nehisi Coates",
-    "imagem": "/imagens/todosMangas/19.webp"
+    "imagem": "/imagens/todosMangas/19.webp",
+    "preco": "R$33,92"
   },
   {
     "id": 50,
     "titulo": "Coringa vol.1",
     "autor": "James Tynion IV",
-    "imagem": "/imagens/todosMangas/20.webp"
+    "imagem": "/imagens/todosMangas/20.webp",
+    "preco": "R$33,92"
   },
   {
     "id": 51,
     "titulo": "Beyblade",
     "autor": "Takao Aoki",
-    "imagem": "/imagens/todosMangas/21.jpg"
+    "imagem": "/imagens/todosMangas/21.jpg",
+    "preco": "R$20,22"
   },
   {
     "id": 52,
     "titulo": "Beyblade Burst Turbo",
     "autor": "Hiro Morita",
-    "imagem": "/imagens/todosMangas/22.jpg"
+    "imagem": "/imagens/todosMangas/22.jpg",
+    "preco": "R$20,22"
   },
   {
     "id": 53,
     "titulo": "Bakugan: Battle Planet",
     "autor": "Bakugan Battle Brawlers Project",
-    "imagem": "/imagens/todosMangas/23.webp"
+    "imagem": "/imagens/todosMangas/23.webp",
+    "preco": "R$20,22"
   },
   {
     "id": 54,
     "titulo": "Sonic X",
     "autor": "Sonic Team",
-    "imagem": "/imagens/todosMangas/24.jpg"
+    "imagem": "/imagens/todosMangas/24.jpg",
+    "preco": "R$20,22"
   },
   {
     "id": 55,
     "titulo": "Yowamushi Pedal vol.16",
     "autor": "Wataru Watanabe",
-    "imagem": "/imagens/todosMangas/25.jpg"
+    "imagem": "/imagens/todosMangas/25.jpg",
+    "preco": "R$20,22"
   },
   {
     "id": 56,
     "titulo": "Dragon ball vol.1",
     "autor": "Akira Toriyama",
-    "imagem": "/imagens/todosMangas/26.jpg"
+    "imagem": "/imagens/todosMangas/26.jpg",
+    "preco": "R$20,22"
   },
   {
     "id": 57,
     "titulo": "Go Astro Boy Go! vol.8",
     "autor": "Osamu Tezuka",
-    "imagem": "/imagens/todosMangas/27.jpg"
+    "imagem": "/imagens/todosMangas/27.jpg",
+    "preco": "R$20,22"
   }
 ]

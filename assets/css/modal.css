@@ -1,53 +1,142 @@
 .modal {
-    display: none;
-    position: fixed;
-    z-index: 1;
-    left: 0;
-    top: 0;
-    width: 100%;
-    height: 100%;
-    overflow: auto;
-    background-color: rgba(0, 0, 0, 0.5);
-  }
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
 
-  .modal-content {
-    background-color: #fefefe;
-    margin: 15% auto;
-    padding: 20px;
-    border: 1px solid #888;
-    width: 80%;
-  }
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+}
 
-  .close {
-    color: #aaa;
-    float: right;
-    font-size: 28px;
-    font-weight: bold;
-  }
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
 
-  .close:hover,
-  .close:focus {
-    color: black;
-    text-decoration: none;
-    cursor: pointer;
-  }
-  .comprarBtn {
-    margin-top: 10px;
-    display: inline-block;
-    font-size: 3rem;
-    color: #010101;
-    background: #E50914;
-    border-radius: .5rem;
-    cursor: pointer;
-    padding: .8rem 3rem;
-  }
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
 
-  .alert {
-    padding: 15px;
-    background-color: #f44336; 
-    color: white;
-    border-radius: 5px;
-    width: fit-content;
-    margin: 20px auto;
-    text-align: center;
-  }
+.comprarBtn {
+  margin-top: 10px;
+  display: inline-block;
+  font-size: 3rem;
+  color: #010101;
+  background: #E50914;
+  border-radius: .5rem;
+  cursor: pointer;
+  padding: .8rem 3rem;
+}
+
+.alert {
+  padding: 15px;
+  background-color: #f44336;
+  color: white;
+  border-radius: 5px;
+  width: fit-content;
+  margin: 20px auto;
+  text-align: center;
+}
+
+/* Estilo do modal */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%;
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.modal-header h2 {
+  margin-top: 0;
+}
+
+.modal-body {
+  text-align: center;
+}
+
+.modal-body img {
+  max-width: 100%;
+  /* Garante que a imagem não ultrapasse a largura máxima do modal */
+  height: auto;
+  /* Permite que a altura da imagem seja ajustada proporcionalmente à largura */
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.modal-footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.modal-footer button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.modal-footer button:hover {
+  background-color: #45a049;
+}
+
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-body img {
+  max-width: 100%;
+  height: auto;
+  width: auto;
+  /* Defina para "auto" para manter a proporção da imagem */
+  max-height: 70vh;
+  /* Define a altura máxima para 70% da altura da viewport */
+  display: block;
+  /* Para centralizar a imagem horizontalmente */
+  margin: 0 auto;
+  /* Para centralizar a imagem horizontalmente */
+}

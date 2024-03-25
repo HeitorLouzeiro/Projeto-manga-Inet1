@@ -20,13 +20,20 @@ document.addEventListener('DOMContentLoaded', function () {
                     return m.id === id;
                 });
 
+                // Criar uma string HTML com a imagem do mangá centralizada e com as dimensões desejadas
+                var htmlContent = `
+    <div style="text-align: center;">
+        <img src='${manga.imagem}' alt="${manga.titulo}" style="width: 290px; height: 350px; display: block; margin: 0 auto;">
+        <br>
+        <h2>${manga.titulo}</h2>
+        <h2>Autor: ${manga.autor}</h2>
+        <h2>Preço: ${manga.preco}</h2>
+    </div>
+`;
+
+
                 // Mostrar as informações do mangá no modal
-                document.getElementById('informacoes').innerHTML = `
-                    <h2>ID: ${manga.id}</h2>
-                    <h2>Título: ${manga.titulo}</h2>
-                    <h2>Autor: ${manga.autor}</h2>
-                    <img src='${manga.imagem}' alt="${manga.titulo}">
-                `;
+                document.getElementById('informacoes').innerHTML = htmlContent;
 
                 // Adicionar evento de clique para o botão de comprar
                 var comprarBtn = document.getElementById('comprarBtn');
